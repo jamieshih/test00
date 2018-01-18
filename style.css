@@ -4,7 +4,8 @@
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
     margin: 0;
-    padding: 0;  
+    padding: 0;
+  
 }
 
 map *:focus{
@@ -16,10 +17,9 @@ body{
 	background-repeat:no-repeat;
 	background-position:top center;
 	background-attachment: scroll;
-	background-color:#fff;
-	margin: 0 auto;
+	background-color:#dcf0fd;
+	margin: 0;
 	}
-
 
 img{ display:block; border:0;}
 
@@ -30,11 +30,11 @@ ol,ul,li{
 
 .clearfix::after {
     clear: both;
+
     display: block;
     height: 0;
     visibility: hidden;
 }
-
 .clearfix {
 	display:inline-block;
     
@@ -45,232 +45,114 @@ html[xmlns] .clearfix {
 
 /* --TAB按鈕------------------------------------- */
 
-.top_btn{position: fixed; right:0px; top: 100px;  width: 102px; height:461px; /*background: url(images/tab_bg.png) no-repeat;*/ margin: 0 auto; z-index: 99;   padding-top: 0px;  padding-left: 0px;}
-.top_btn a { }
-.top_btn a:hover img{
-		-webkit-filter: brightness(125%);
-		/* Firefox */ -webkit-transition:  0.5s; 
-		/* Safari and Chrome */ -o-transition:  0.5s; 
-		/* Opera */ transition:  0.5s;		
-}
+.top_btn{position: fixed; right:0px; top: 30px; width: 154px; height:243x; /*background: url(images/tab_bg.png) no-repeat; */margin: 0 auto; z-index: 99; padding-top:20px;}
+.top_btn a {  }
+.top_btn a:hover img{ opacity:0.9;}
 
 
 /* --main 標題---------------------------------------------------------------------------- */
 
-#main{ 
-	width:1200px;
-	margin:0 auto;
-}
+#main{ width:1000px;
+       margin:0 auto;
+	}
 	   
 
 #main .bg{
-	width:1200px;
-	height:694px;
+	width:1000px;
+	height: 570px;
 	background: url(images/kv_bg.jpg) no-repeat;
 	position: relative;	
-}
+	}
 
-#main .kv{
-	width:1200px;
-	height:630px;
-	padding-top:63px;
-}
-
-#header{
-    width: 100%;
-    height: 63px;
-    top: 0;
-    left: 0;
-	position:absolute;
-    z-index: 99;
-    background-image:url(images/header_bg.png);
-    background-repeat: repeat-x;
-}
-
-#header .header_wrap{
-    margin: 0 auto;
-    max-width: 1200px;
-    height: 63px;
-    position: relative;
-    text-align: left;
-    z-index: 1000;
-}
-
-#header .header_logo{
-	position: absolute;
-    z-index: 999;
-    top: 10px;
-    left: 78px;
-    width: 280px;
-    height: 50px;
-    margin: 0;
-    padding: 0;
-}
-
-
-#header .header_fb{
-	position: absolute;
-    z-index: 999;
-    top: 15px;
-	right:30px;
-    width: 42px;
-    height: 39px;
-    margin: 0;
-    padding: 0;
-}
-
-.header_logo:hover , .header_fb:hover{
-	-webkit-filter: brightness(120%);	
-	/* Firefox */ -webkit-transition:  0.5s; 
-	/* Safari and Chrome */ -o-transition:  0.5s; 
-	/* Opera */ transition:  0.5s;		
-}
-
-div#form_box { float: right; width: 386px; height:760px; z-index: 999;  margin-top: 70px; margin-right: 115px; overflow:hidden; display:block; }
+#main .logo{
+	padding-left: 60px;
+	padding-top: 20px;
+	box-sizing:border-box;
+	}
 
 #main .t1{
 	position:absolute;
-    top: 191px;
-    left: 23px;
-}
-#main .t1:hover{
-	-webkit-filter: brightness(110%);	
-}
-
+	top: 40px;
+	left: 170px;
+	}
 
 #main .t2{
-	position:absolute;
-    left: 35px;
-    top: 333px;
+    padding-top: 185px;
+    padding-left: 263px;
 	box-sizing:border-box;
 	}
 	
 #main .t3{
-position: absolute;
-    top: 0px;
-    margin-left: 554px;
+	position: absolute;
+    top: 274px;
+    margin-left: 713px;
 	}	
 
 
 #content{
-	width:1200px;
-	height:919px;
+	width:1000px;
     margin:0 auto;
-	clear:both;
-	background-image:url(images/content_bg.jpg);
-	background-repeat: no-repeat;	
 }
 
 	
-.content_left {
+.content_box01 {
 	margin:0 auto;
-	width:695px;
-	height:919px;
-	float:left;
+	width:1000px;
 }
 
-.content_right {
-	margin: 0 auto;
-	width: 505px;
-	height: 919px;
-	float: right;
-	position:relative;
-}
-
-.notice{
-	width:1200px;
-	height:442px;
-	margin:0 auto;
-}
-.content_box01{
-	width:1200px;
-	height:318px;
-    margin:0 auto;
-	clear:both;
-}
 .content_box01 ul{
-    margin:0 auto;
+	margin:0 auto;
+	width:1000px;	
 }
-.content_box01 li:first-child{
-	margin-left:3px;
-}
+
 .content_box01 li{
 	display:inline;
 	float:left;
-	margin-left:5px;
-	margin-top:100px;
+
 }
 
-.content_box01 li:hover{
-	-webkit-filter: brightness(110%);
-}	
-/*.content_box01 li:hover{
-	opacity:0.9;
-	-webkit-filter: brightness(108%); 
-	filter: brightness(108%);	
-}*/
-
-.content_box02 {
-	width:1200px;
-	height:520px;
+.content_box02{
+	width:1000px;
 	margin:0 auto;
-	margin-top:150px;
-	background-image:url(images/topbrands.jpg);	
+	clear:both;
 }
-.content_box02 .logo01{ display:block; padding-top:150px;}
-.content_box02 .logo02{ display:block; padding-top:180px;}
-.content_box02 ul{ margin:0 auto;}
-.content_box02 li {float:left; padding-left:18px; padding-bottom:5px;}
-.content_box02 li:hover {-webkit-filter: brightness(110%);}
-
-.content_box03 {
-	width:1200px;
-	height:338px;
-	margin:0 auto;
-	margin-top:50px;
-	background-image:url(images/avidols.jpg);		
-}
-.content_box03 .logo01{ display:block; padding-top:100px;}
-.content_box03 ul{ margin:0 auto;}
-.content_box03 li {float:left; padding-left:13px; padding-bottom:10px;}
-.content_box03 li:hover {-webkit-filter: brightness(110%);}
 
 #btn{
-	clear:both;
-	width:1200px;
-	height:220px;
+	width:1000px;
+	height:115px;
 	margin:0 auto;
+	margin-bottom:20px;
 }
 
 #btn .btn_a{
 	position:absolute;
-	margin-top:60px;
-	margin-left:150px;
+	margin-left:20px;
 }
 
 #btn .btn_a a:hover{
 	position:absolute;
-	-webkit-filter: brightness(110%);	
-	/* Firefox */ -webkit-transition:  0.5s; 
-	/* Safari and Chrome */ -o-transition:  0.5s; 
-	/* Opera */ transition:  0.5s;				
+	margin-top:3px;
 }
 
 #btn .btn_b{
 	position:absolute;
-	margin-top:60px;	
-	margin-left:640px;	
+	margin-left:348px;	
 }
 
 #btn .btn_b a:hover{
 	position:absolute;
-	-webkit-filter: brightness(110%);	
-	/* Firefox */ -webkit-transition:  0.5s; 
-	/* Safari and Chrome */ -o-transition:  0.5s; 
-	/* Opera */ transition:  0.5s;			
-	/*transform:scale(0.99);
-	transition:all ease-in-out .2s;*/
+	margin-top:3px;
 }
+#btn .btn_c{
+	position:absolute;
+	margin-left:670px;	
+}
+
+#btn .btn_c a:hover{
+	position:absolute;
+	margin-top:3px;
+}
+
 /* --box01---------------------------------------------------------------------------- */
 #main .box01 ul{
 	
@@ -284,20 +166,18 @@ position: absolute;
 /* --footer---------------------------------------------------------------------------- */
 		
 #footer{
-		background-color:#60a74f;
+		background-color:#ba9bd2;
 		width:100%;
 		height:62px;
-		margin:0 auto;
 		}
 
 #footer ul{
-		width:1200px;
-		height:62px;
+		width:1000PX;
+		height:62PX;
 		margin:0 auto;
 		}
 		
 #footer li {
-		margin:0 auto;
 		float:left;
 	     }
 
@@ -309,7 +189,7 @@ position: absolute;
 	     }
 		 
 #footer li a.f01:hover {
-		background-color:#459532;
+		background-color:#9b6fbd;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -324,7 +204,7 @@ position: absolute;
 	     }
 		 
 #footer li a.f02:hover {
-		background-color:#459532;
+		background-color:#9b6fbd;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -339,7 +219,7 @@ position: absolute;
 	     }
 		 
 #footer li a.f03:hover {
-		background-color:#459532;
+		background-color:#9b6fbd;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -354,7 +234,7 @@ position: absolute;
 	     }
 		 
 #footer li a.f04:hover {
-		background-color:#459532;
+		background-color:#9b6fbd;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -369,106 +249,13 @@ position: absolute;
 	     }
 		 
 #footer li a.f05:hover {
-		background-color:#459532;
+		background-color:#9b6fbd;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
 		/* Opera */ transition:  0.5s;	
 		 }
 		 
-		 
-		 
-/*tab*/
-	.abgne_tab {
-		float:left;
-	}
-	ul.tabs {
-		width:182px;
-		height: 902px;
-		background-image:url(images/tab_bg.jpg);
-		position:absolute;
-		margin:0 auto;
-		float:left;	
-	}
-	ul.tabs .condom{
-		display:block;
-		margin-top:30px;
-		margin-bottom:22px;
-	}	
-	
-	ul.tabs .condom:hover{
-		-webkit-filter: brightness(115%);
-		/* Firefox */ -webkit-transition:  0.5s; 
-		/* Safari and Chrome */ -o-transition:  0.5s; 
-		/* Opera */ transition:  0.5s;			
-	}		
-	
-	ul.tabs li {
-		/*float: left;*/
-		width:182px;
-		height: 57px;
-		line-height: 31px;
-		overflow: hidden;
-		position: relative;
-		margin-bottom: -1px;	/* 讓 li 往下移來遮住 ul 的部份 border-bottom */
-		/*border: 1px solid #999;*/
-		border-left: none;
-		/*background: #e1e1e1;*/
-		margin-bottom:22px;
-	}
-	ul.tabs li a {
-		width:182px;
-		height: 57px;	
-		display: block;
-		/*padding: 0 10px;*/
-		color: #fff;
-		/*border: 1px solid #fff;*/
-		text-decoration: none;
-	}
-	ul.tabs li a:hover {	
-		background-image:url(images/tab_active.png);		
-	}
-	ul.tabs li.active  {
-		width:182px;
-		height: 57px;			
-		background-image:url(images/tab_active.png);
-		/* Firefox */ -webkit-transition:  0.5s; 
-		/* Safari and Chrome */ -o-transition:  0.5s; 
-		/* Opera */ transition:  0.5s;			
-	}
-	ul.tabs li.active a:hover {
-		-webkit-filter: brightness(115%);
-		background-image:url(images/tab_active.png);
-		/* Firefox */ -webkit-transition:  0.5s; 
-		/* Safari and Chrome */ -o-transition:  0.5s; 
-		/* Opera */ transition:  0.5s;			
-	}
-		
-	.content_left .tab_container {
-		width: 650px;
-		height:902px;
-		/*border: 1px solid #999;*/
-		border-top: none;
-		background: #fff;
-		margin-left:172px;
-		float:right;
-	}
-	div.tab_container .tab_content {
-		padding: 20px;
-	}
-	div.tab_container .tab_content h2 {
-		margin: 0 0 20px;
-	}
-
-	div.tab_container .tab_content ul {
-	}
-
-	div.tab_container .tab_content li {
-		float:left;
-		margin-left:30px;
-		margin-bottom:13px;
-	}
-
-	div.tab_container .tab_content li:hover {
-		opacity:0.85;
-	}			 
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+    .top_btn { display: none;}
+}		 
