@@ -29,28 +29,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MQN258');</script>
 <!-- End Google Tag Manager -->
 
+
+<!--給頁籤網址-->
 <script type="text/javascript">
 $(window).load(function(){
 
-$(function() {
-    $("#tabs").tabs();
-    $("a[href=#001]").click(function() {
-        $("#tabs").tabs("option", "active", 0);
-    });
-    $("a[href=#002]").click(function() {
-        $("#tabs").tabs("option", "active", 1);
-    });
-    $("a[href=#003]").click(function() {
-        $("#tabs").tabs("option", "active", 2);
-    });
-    $("a[href=#004]").click(function() {
-        $("#tabs").tabs("option", "active", 3);
-    });
-});
+	$(function() {
+		$("#tabs").tabs();
+		$("a[href=#event01]").click(function() {
+			$("#tabs").tabs("option", "active", 0);
+		});
+		$("a[href=#event02]").click(function() {
+			$("#tabs").tabs("option", "active", 1);
+		});
+		$("a[href=#event03]").click(function() {
+			$("#tabs").tabs("option", "active", 2);
+		});
+	});
 
 });
 
 </script>
+
 
 </head>
 
@@ -60,71 +60,61 @@ $(function() {
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
     
+    
+    <!--主視覺start-->
 	<div id="main">
-		<div class="bg">
+    
+		<div class="main-bg">
 			<div class="logo"><a data-label="MYDAY LOGO回首頁" href="http://www.myday.com.tw/a_myday/index.php" target="_blank"><img src="images/kv_logo.png" /></a></div>
-			<div class="t1">
-		    	<a data-label="日美韓春漾購物節回首頁" href="http://www.myday.com.tw/a_myday/index.php" target="_blank"><img src="images/kv_title01.png" /></a></div>                                  
+			<div class="t1"><a data-label="歡慶母親節" href="http://www.myday.com.tw/a_myday/index.php" target="_blank"><img src="images/kv_title01.jpg" /></a></div> 
+            <div class="t2"><a data-label="感恩回饋" href="#event01"><img src="images/kv_title02.jpg" /></a></div>                                 
+            <div class="t3"><a data-label="指定類別" href="#event02"><img src="images/kv_title03.jpg" /></a></div>
+            
+       		<div class="game-bg"> 
+				<div class="game-rotate" ><img id="rotate" src="images/game_rotate.png" alt="rotate"/></div>
+				<div class="game-pointer"><img src="images/game_pointer.png" alt="pointer"/></div>
+      		</div>
+        
+        	<div class="ad-banner">
+        		<a href="#"><img src="images/ad_banner.jpg"></a>
+       		</div>       
+    	</div>
+    </div>
+    <!--主視覺end-->  
+    
+    
+    <!--商品區塊start-->
+    <div id="content">
+  		<img src="images/product.jpg">
+    </div> 
+    <!--商品區塊end-->
+
+
+	<!--頁籤start-->
+ 	<div id="content-tabs">
+		<div id="tabs">
+			<ul>
+			<li><a href="#event01"><img src="images/tabs_text01.png"></a></li>
+			<li><a href="#event02"><img src="images/tabs_text02.png"></a></li>
+			<li><a href="#event03"><img src="images/tabs_text03.png"></a></li>
+			</ul>
+            
+				<div id="event01">
+				<img src="images/tabs_content01.jpg">
+				</div>
+				<div id="event02">
+				Content 2
+				</div>
+				<div id="event03">
+				Content 3
+				</div>    
 		</div>
     </div>
-    
-    <div id="content">
-    	<div class="content_box01">
-        <ul>
-	        <li><a href="https://www.myday.com.tw/a_myday/index.php" target="_blank" data-label="韓國代購0回首頁"><img src="images/content01_01.jpg"></a></li>
- 	        <li><a href="https://www.myday.com.tw/a_myday/index.php" target="_blank" data-label="美國代收99回首頁"><img src="images/content01_02.jpg"></a></li>           
-	        <li><a href="https://www.myday.com.tw/a_myday/index.php" target="_blank" data-label="美國代標購199回首頁"><img src="images/content01_03.jpg"></a></li>
- 	        <li><a href="https://www.myday.com.tw/a_myday/index.php" target="_blank" data-label="日本代標購199回首頁"><img src="images/content01_04.jpg"></a></li>               
-        </ul>
- 		</div> 
 
-    	<div class="content_box02">        
-     	<img src="images/content02.jpg" usemap="#Map">
-        <map name="Map">
-          <area shape="rect" coords="12,175,238,493" href="https://www.myday.com.tw/a_myday/about_view.php?mid=54&type=4&id=28" target="_blank">
-          <area shape="rect" coords="256,183,751,520" href="https://www.myday.com.tw/a_myday/about_view.php?mid=49&type=4&id=27" target="_blank">
-          <area shape="rect" coords="763,172,990,494" href="https://www.myday.com.tw/a_myday/about_view.php?mid=58&type=4&id=30" target="_blank">
-        </map>
-    	<img src="images/content03.jpg" usemap="#Map2">
-        <map name="Map2">
-          <area shape="rect" coords="349,172,560,203" href="https://www.myday.com.tw/a_myday/category.php?api=jp_yahoo" target="_blank">
-          <area shape="rect" coords="621,157,732,218" href="https://www.myday.com.tw/a_myday/category.php?api=jp_rakuten" target="_blank">
-          <area shape="rect" coords="780,171,932,207" href="https://www.myday.com.tw/a_myday/1-all.php" target="_blank">
-          <area shape="rect" coords="402,281,535,338" href="https://www.myday.com.tw/a_myday/category.php?api=usa_ebay" target="_blank">
-          <area shape="rect" coords="603,276,746,336" href="https://www.myday.com.tw/a_myday/category.php?api=usa_amazon" target="_blank">
-          <area shape="rect" coords="777,291,933,328" href="https://www.myday.com.tw/a_myday/1-all-us.php" target="_blank">
-          <area shape="rect" coords="402,405,535,450" href="https://www.myday.com.tw/a_myday/1-all-korea.php" target="_blank">
-          <area shape="rect" coords="612,421,738,449" href="https://www.myday.com.tw/a_myday/1-all-korea.php" target="_blank">
-          <area shape="rect" coords="779,413,933,448" href="https://www.myday.com.tw/a_myday/1-all-korea.php" target="_blank">
-        </map>
-    	<img src="images/content04.jpg" usemap="#Map3">
-        <map name="Map3">
-          <area shape="rect" coords="494,780,934,802" href="https://www.myday.com.tw/a_myday/about.php?type=3&id=67" target="_blank">
-          <area shape="rect" coords="379,944,527,965" href="https://www.myday.com.tw/a_myday/about.php?type=3&id=19" target="_blank">
-        </map>
-       	</div> 
-
-<a href="#001">Allocated</a>
-<a href="#002">Declined</a>
-<a href="#003">Pending</a>
+	</div>
+    <!--頁籤end-->
 <div>
-  <div id="tabs">
-    <ul>
-      <li><a href="#001"><img src="images/tabs_text01.png"></a></li>
-      <li><a href="#002"><img src="images/tabs_text02.png"></a></li>
-      <li><a href="#003"><img src="images/tabs_text03.png"></a></li>
-      </ul>
-          <div id="001">
-              <img src="images/tabs_content01.jpg">
-          </div>
-          <div id="002">
-              Content 2
-          </div>
-          <div id="003">
-              Content 3
-          </div>    
-        </div>
-</div>
+
 
  
       <!--按鈕-->
