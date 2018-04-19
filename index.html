@@ -45,10 +45,24 @@ $(window).load(function(){
 		$("a[href=#event03]").click(function() {
 			$("#tabs").tabs("option", "active", 2);
 		});
+		
 	});
-
+	 
 });
 
+$(function(){
+
+	$('#t2').click(function(){
+		$('html,body').animate({scrollTop:$('#tabs').offset().top-20}, 800);
+	});
+	
+	$('#t3').click(function(){
+		$('html,body').animate({scrollTop:$('#tabs').offset().top-20}, 800);
+	});
+	$('#ad-banner').click(function(){
+		$('html,body').animate({scrollTop:$('#tabs').offset().top-20}, 800);
+	});	
+});
 </script>
 
 
@@ -66,17 +80,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
 		<div class="main-bg">
 			<div class="logo"><a data-label="MYDAY LOGO回首頁" href="http://www.myday.com.tw/a_myday/index.php" target="_blank"><img src="images/kv_logo.png" /></a></div>
-			<div class="t1"><a data-label="歡慶母親節" href="http://www.myday.com.tw/a_myday/index.php" target="_blank"><img src="images/kv_title01.jpg" /></a></div> 
-            <div class="t2"><a data-label="感恩回饋" href="#event01"><img src="images/kv_title02.jpg" /></a></div>                                 
-            <div class="t3"><a data-label="指定類別" href="#event02"><img src="images/kv_title03.jpg" /></a></div>
+			<div id="t1"><a data-label="歡慶母親節" href="http://www.myday.com.tw/a_myday/index.php" target="_blank"><img src="images/kv_title01.jpg" /></a></div> 
+            <div id="t2"><a data-label="感恩回饋" href="#event01"><img src="images/kv_title02.jpg" /></a></div>                                 
+            <div id="t3"><a data-label="指定類別" href="#event02"><img src="images/kv_title03.jpg" /></a></div>
             
-       		<div class="game-bg"> 
-				<div class="game-rotate" ><img id="rotate" src="images/game_rotate.png" alt="rotate"/></div>
-				<div class="game-pointer"><img src="images/game_pointer.png" alt="pointer"/></div>
+       		<div id="game-bg"> 
+				<div id="game-rotate" ><img id="rotate" src="images/game_rotate.png" alt="rotate"/></div>
+				<div id="game-pointer"><img src="images/game_pointer.png" alt="pointer"/></div>
       		</div>
         
-        	<div class="ad-banner">
-        		<a href="#"><img src="images/ad_banner.jpg"></a>
+        	<div id="ad-banner">
+        		<a href="#event03"><img src="images/ad_banner.jpg"></a>
        		</div>       
     	</div>
     </div>
