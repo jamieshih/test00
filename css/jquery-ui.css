@@ -845,7 +845,7 @@ button.ui-button::-moz-focus-inner {
 	float: left;
 	position: relative;
 	top: 0;
-	margin: 1px;
+	margin: 0 2px 0 1px;
 	border-bottom-width: 0;
 	padding: 0;
 	white-space: nowrap;
@@ -856,18 +856,22 @@ button.ui-button::-moz-focus-inner {
 	float: left;
 	/*padding: .5em 1em;*/
 	text-decoration: none;
+	outline: none;	
 }
 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+	outline: none;
 }
 .ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
 .ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor,
 .ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
 	cursor: text;
+	outline: none;	
 }
 .ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
 	cursor: pointer;
+	outline: none;	
 }
 .ui-tabs .ui-tabs-panel {
 	width:1197px;
@@ -939,7 +943,9 @@ works properly when clicked or hovered */
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
 	/*border: 1px solid #ffffff;*/
-	background:  url(../images/tabs_text01_out.png) 50% 50% repeat;
+	width:398px;
+	height:110px;
+	background: url(../images/tabs_text01_out.png) 50% 50% repeat;
 	font-weight: bold;
 	/*color: #ffffff;*/
 }
@@ -961,8 +967,10 @@ a:visited.ui-button,
 .ui-widget-header .ui-state-focus,
 .ui-button:hover,
 .ui-button:focus {
+	width:398px;
+	height:110px;	
 	/*border: 1px solid #2293f7;*/
-	background: #2293f7 url(../images/tabs_text01_out.png) 50% 50% repeat;
+	background:  url(../images/tabs_text01_out.png) 50% 50% repeat;
 	font-weight: bold;
 	/*color: #ffffff;*/
 }
@@ -989,10 +997,10 @@ a.ui-button:focus {
 a.ui-button:active,
 .ui-button:active,
 .ui-button.ui-state-active:hover {
-	border: 1px solid #e69700;
+	/*border: 1px solid #e69700;*/
 	background: #e69700 url(../images/tabs_text01_in.png) 50% 50% repeat;
 	font-weight: bold;
-	color: #ffffff;
+	/*color: #ffffff;*/
 }
 .ui-icon-background,
 .ui-state-active .ui-icon-background {

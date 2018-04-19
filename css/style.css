@@ -1,62 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
-
-
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
-    margin: 0;
-    padding: 0;
-  
-}
-
-map *:focus{
-outline:none;
-}
-
-body{
-	/*background: url(../images/index_bg.jpg) no-repeat;*/
-	background-repeat:no-repeat;
-	background-position:top center;
-	background-attachment: scroll;
-	background-color:#dcf0fd;
-	margin: 0;
-	}
-
-img{ display:block; border:0;}
-
-ol,ul,li{
- list-style:none;
-}
-
-
-.clearfix::after {
-    clear: both;
-
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
-.clearfix {
-	display:inline-block;
-    
-}
-html[xmlns] .clearfix {
-    display: block;
-}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+map :focus{outline:none;}
+body{background-repeat:no-repeat;background-position:top center;background-attachment:scroll;background-color:#dcf0fd;margin:0;}
+img{display:block;border:0;}
+ol,ul,li{list-style:none;}
+.clearfix::after{clear:both;display:block;height:0;visibility:hidden;}
+.clearfix{display:inline-block;}
+html[xmlns] .clearfix{display:block;}
 
 /* --浮標籤------------------------------------- */
-
-.top_btn{position: fixed; right:0px; top: 50px; width: 154px; height:243x; /*background: url(images/tab_bg.png) no-repeat; */margin: 0 auto; z-index: 99; }
-.top_btn a {  }
-.top_btn a:hover img{
-		-webkit-filter: brightness(120%);
-		/* Firefox */ -webkit-transition:  0.5s; 
-		/* Safari and Chrome */ -o-transition:  0.5s; 
-		/* Opera */ transition:  0.5s;		
-}
-
+.top_btn{position:fixed;right:0;top:50px;width:154px;height:243px;z-index:99;margin:0 auto;}
+.top_btn a{}
+.top_btn a:hover img{-webkit-filter:brightness(120%);-webkit-transition:.5s;-o-transition:.5s;transition:.5s;}
 
 /*---轉盤--*/
-
 #game-bg {
 	width: 620px;
     height: 590px;
@@ -75,17 +33,50 @@ html[xmlns] .clearfix {
     top: 56px;
 }
 
-#game-pointer{
+#game-pointer01{
 	width: 234px;
     height: 246px;
     position: absolute;
     left: 210px;
     top: 165px;
-	cursor: pointer; 
+	cursor: pointer;
+	display:block;
+}
+
+#game-pointer02{
+	width: 234px;
+    height: 246px;
+    position: absolute;
+    left: 210px;
+    top: 165px;
+	cursor: pointer;
+	display:none;
+}
+
+#game-pointer03{
+	width: 234px;
+    height: 246px;
+    position: absolute;
+    left: 210px;
+    top: 165px;
+	cursor: pointer;
+	background-image:url(../images/game_pointer03.png);
+	display:none;
+}
+
+#game-text{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    color: #FFF;
+    font-size: 34px;
+    font-family: Verdana, Geneva, sans-serif;
+    left: 75px;
+    top: 111px;
+	text-align:center;
 }
 
 /* --main 標題---------------------------------------------------------------------------- */
-
 #main{ 
 	width:1200px;
 	height:948px;
@@ -112,24 +103,36 @@ html[xmlns] .clearfix {
 	left: 39px;
 }
 
-#main #t2{
+#main #t2 img{
     top: 430px;
     margin-left: 66px;
 	position: absolute;	
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;		
 }
 
 
-#main #t3{
+#main #t3 img{
 	position: absolute;
     top: 430px;
     margin-left: 327px;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;		
 }	
 
 #main #t2 img:hover , #t3 img:hover {
-	-webkit-filter: brightness(110%);
-	/* Firefox */ -webkit-transition:  0.8s; 
-	/* Safari and Chrome */ -o-transition:  0.8s; 
-	/* Opera */ transition:  0.8s;	
+	filter: brightness(108%);
+	-webkit-transform:translateY(-1px);
+	-moz-transform:translateY(-2px);
+	-ms-transform:translateY(-2px);
+	-o-transform:translateY(-2px);
+	transform:translateY(-2px);
 }
 
 	
@@ -140,21 +143,27 @@ html[xmlns] .clearfix {
     margin: 0 auto;
     top: 765px;
     position: relative;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;	
 }
 
 	
-#main .ad-banner img:hover{
-	-webkit-filter: brightness(110%);
-	/* Firefox */ -webkit-transition:  0.8s; 
-	/* Safari and Chrome */ -o-transition:  0.8s; 
-	/* Opera */ transition:  0.8s;	
+#main #ad-banner img:hover{
+	filter: brightness(108%);
+	-webkit-transform:translateY(-1px);
+	-moz-transform:translateY(-2px);
+	-ms-transform:translateY(-2px);
+	-o-transform:translateY(-2px);
+	transform:translateY(-2px);
 }
 
 #content{
 	width:1200px;
     margin:0 auto;
 }
-
 
 #content-tabs{
 	width:1200px;
