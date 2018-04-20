@@ -1,0 +1,288 @@
+﻿body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;}
+body{color:#333;}
+ul,ol{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+input{ font-size:12px;}
+a{ text-decoration:none; color:#000;}
+a:hover{color:#c00; text-decoration:none;}
+.clear{clear:both;}
+
+/* 大转盘样式 */
+.banner{display:block;width:98%;margin-left:auto;margin-right:auto;margin-bottom: 0px;}
+.banner .turnplate{display:block;width:96%;position:relative;padding:1.5%}
+.banner .turnplate canvas.item{width:100%; }
+.banner .turnplate img.pointer{position:absolute;width: 33.5%;
+    height: 43%;
+    left: 32.5%;
+    top: 22.5%;cursor: pointer;
+	z-index:9999;}
+.banner .turnplate img.pointer2{position:absolute;width: 33.5%;
+    height: 43%;
+    left: 32.5%;
+    top: 22.5%;z-index:9999;}
+/*Msg box*/
+#lotteryMsg {
+display:none;
+}
+#productMsg{
+display:none;
+}
+#sorryMsg{
+display:block;
+}
+#sorry{
+font-size: 3.5em;
+font-weight: 600;	
+width: 100%;
+display:inline-block;
+}
+#sorrytimes{
+width: 100%;
+display:none;
+}
+#sorry-btn{
+display:inline-block;
+}
+#sorrytimes-btn{
+display:none;
+}
+#times{
+	font-size: 1em;
+    margin-top: 5px;
+    color: #717171;
+	display:none;
+}
+#times2{
+	font-size: 1em;
+    margin-top: 5px;
+    color: #717171;
+	display:none;
+}
+#award-times{display:block;font-size: 1em;
+    margin-top: 5px;
+    color: #717171;}
+#award-times2{display:block;font-size: 1em;
+    margin-top: 5px;
+    color: #717171;}
+.showmsg{
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+	z-index: 10000;}
+.againmsg{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+	z-index: 10000;}
+.content{
+	color:#000;
+	width: 50%;
+    /* height: 100%; */
+    line-height: 27px;
+    position: relative;
+    margin: 0 auto;
+    padding: 10% 5%;
+    margin-top: 10%;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    /*-webkit-box-shadow: 0 0 10px 1px rgba(0,0,0,0.4);
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.4);}*/
+	}
+#lotteryMsg .content{
+	background-image: url(img/money.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-position:contain;
+	-moz-background-size: contain;
+	background-size: contain;
+	}
+#productMsg .content{
+	background-image: url(img/money.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-moz-background-size: contain;
+	background-size: contain;
+	}
+#sorryMsg .content{
+	background-image: url(img/sorry-smg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-position:contain;
+	-moz-background-size: contain;
+	background-size: contain;
+	}
+.close{
+	position:absolute;
+	top:0;
+	right:2%;
+	cursor:pointer;
+	text-decoration:none;
+}
+.close:hover{
+	text-decoration: underline;
+}
+.pointer{
+	cursor:pointer;
+}
+.content .Title{
+	color:#000;
+	font-size:2em;
+	font-weight:600;
+	line-height: 1.8em;
+	}
+.content #award2{
+	color:#ff0000;
+	font-size:1.6em;
+	text-shadow:1px 1px 1px #A07676;
+	}
+.content .productname{
+	color:#ff0000;
+	font-size:2.5em;
+	text-shadow: 1px 1px 2px #C7C7C7;
+	font-weight:600;
+	}
+.content .productname span{
+	font-size: 1.8em;
+    line-height: 1.5em;
+	}
+@media all and (max-width:640px)  {	
+	.againmsg,.showmsg{padding:0px;}
+	.content{width: 80%; margin-top: 45%;}
+	
+}
+
+#award span{
+	font-size: 2em;
+    color: #ff0000;
+    line-height: 1.2em;
+    text-shadow: 1px 1px 1px #A07676;
+}
+.btn_award{
+	-webkit-border-radius: 15px;
+    border-radius: 10px;
+    background-color: #ff4545;
+    color: #FFF;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px #ff4545 solid;
+    cursor: pointer;
+	margin-top: 5px;
+	font-size: 1.1em;
+	font-family: "微軟正黑體", Arial;
+}
+.btn_award:hover{
+    background-color: #EA0404;
+    color: #FFFFFF;
+    border: 1px #EA0404 solid;
+}
+.btn_fb{
+	-webkit-border-radius: 15px;
+	border-radius: 10px;
+	background-color: #efefef;
+	color: #3156AD;
+	font-weight: bold;
+	padding: 10px 20px;
+	border: 1px #3156AD solid;
+	cursor: pointer;
+	margin-top: 5px;
+	font-size: 1.1em;
+	font-family: "微軟正黑體", Arial;
+}
+.btn_fb:hover{
+    background-color: #3156AD;
+    color: #FFFFFF;
+    border: 1px #3156AD solid;
+}
+#times a {
+    color: #8d8d8d;
+    text-decoration: underline;
+}
+#times2 a {
+    color: #8d8d8d;
+    text-decoration: underline;
+}
+@media all and (min-width:641px)  and (max-width:1200px) {
+#award span{
+	font-size:3em;
+    line-height: 1em;
+    text-shadow: 1px 1px 1px #A07676;
+}}
+@media all and (max-width:640px)  {
+#award span{
+	font-size:1.5em;
+    line-height: 1em;
+    text-shadow: 1px 1px 1px #A07676;
+}
+#lotteryMsg .content{
+	background-image: url(img/money.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-moz-background-size: cover;
+	background-size: cover;
+	}
+#productMsg .content{
+	background-image: url(img/money2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-moz-background-size: cover;
+	background-size: cover;
+	}
+
+#sorryMsg .content{
+	background-image: url(img/sorry-smg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-moz-background-size: cover;
+	background-size: cover;
+	}
+.btn_award{
+	margin-top: 0px;
+	padding: 3px 8px;
+	padding: 3px 8px;
+	background-color: #ff4545;
+    color: #FFF;
+    border-color: #FFF;
+	width: 45%;
+    font-size: 0.5em;}
+.btn_fb{
+	margin-top: 0px;
+	padding: 3px 8px;
+	background-color: #3156AD;
+    color: #FFF;
+    border-color: #FFF;
+	width: 45%;
+    font-size: 0.5em;}
+#times{ line-height: 0.7em;}#times2{ line-height: 1em;}
+#award-times{ line-height: 0.7em;}#award-times2{ line-height: 1em;}
+.content .Title {
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+.content #award2 {
+    color: #ff0000;
+    font-size: 1.2em;
+	width: 80%;
+    margin: 0 auto;
+}
+.content .productname span {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+.content .productname {
+    font-size: 2em;
+}
+	}
