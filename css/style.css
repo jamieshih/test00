@@ -31,7 +31,16 @@ html[xmlns] .clearfix{display:block;}
     position: absolute;
     left: 86px;
     top: 56px;
+	animation: 20s self-rotate infinite linear;
 }
+		@keyframes self-rotate {
+			from {
+				transform: rotate(0deg);
+			}
+			to {
+				transform: rotate(720deg);
+			}
+		}
 
 #game-pointer01{
 	width: 234px;
@@ -209,11 +218,11 @@ html[xmlns] .clearfix{display:block;}
 
 	
 #main #ad-banner img{
-    width: 1190px;
-    height: 111px;
+    width: 1145px;
+    height: 137px;
     display: block;
     margin: 0 auto;
-    top: 765px;
+    top: 755px;
     position: relative;
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
