@@ -2,7 +2,14 @@
 /* CSS Document */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
 map :focus{outline:none;}
-body{background-repeat:no-repeat;background-position:top center;background-attachment:scroll;background-color:#dcf0fd;margin:0;}
+
+body{
+	background:url(../images/index_bg.jpg) no-repeat;
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-attachment: scroll;
+	margin: 0;
+	}
 img{display:block;border:0;}
 ol,ul,li{list-style:none;}
 .clearfix::after{clear:both;display:block;height:0;visibility:hidden;}
@@ -10,9 +17,9 @@ ol,ul,li{list-style:none;}
 html[xmlns] .clearfix{display:block;}
 
 /* --浮標籤------------------------------------- */
-.top_btn{position:fixed;right:0;top:50px;width:154px;height:243px;z-index:99;margin:0 auto;}
-.top_btn a{}
-.top_btn a:hover img{-webkit-filter:brightness(120%);-webkit-transition:.5s;-o-transition:.5s;transition:.5s;}
+.top_btn{position:fixed;right:50px;top:0px;width:157px;height:493px;z-index:99;margin:0 auto; background-image:url(../images/tab_bg.png); padding-top: 110px; padding-left: 20px; background-repeat:no-repeat;}
+.top_btn a{	-webkit-transition: all 0.2s ease;-moz-transition: all 0.2s ease;-ms-transition: all 0.2s ease;-o-transition: all 0.2s ease;transition: all 0.2s ease;}
+.top_btn a:hover img{ filter: brightness(108%);-webkit-transform:translateY(-1px);-moz-transform:translateY(-2px);-ms-transform:translateY(-2px);-o-transform:translateY(-2px);transform:translateY(-2px);}
 
 /*---轉盤--*/
 #game-bg {
@@ -33,14 +40,14 @@ html[xmlns] .clearfix{display:block;}
     top: 56px;
 	animation: 20s self-rotate infinite linear;
 }
-		@keyframes self-rotate {
+/*		@keyframes self-rotate {
 			from {
 				transform: rotate(0deg);
 			}
 			to {
 				transform: rotate(720deg);
 			}
-		}
+		}*/
 
 #game-pointer01{
 	width: 234px;
@@ -222,7 +229,7 @@ html[xmlns] .clearfix{display:block;}
     height: 137px;
     display: block;
     margin: 0 auto;
-    top: 755px;
+    top: 743px;
     position: relative;
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
@@ -258,30 +265,48 @@ html[xmlns] .clearfix{display:block;}
 	width:1200px;
 	height:115px;
 	margin:0 auto;
+	margin-top:50px;
 	margin-bottom:20px;
 }
 
-#btn .btn_a{
+#btn .btn_a img{
 	position:absolute;
-	margin-left:20px;
+	margin-left:100px;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;		
 }
 
 #btn .btn_a a:hover img ,.btn_b a:hover img ,.btn_c a:hover img{
-	-webkit-filter: brightness(110%);
-	/* Firefox */ -webkit-transition:  0.5s; 
-	/* Safari and Chrome */ -o-transition:  0.5s; 
-	/* Opera */ transition:  0.5s;			
+	filter: brightness(108%);
+	-webkit-transform:translateY(-1px);
+	-moz-transform:translateY(-2px);
+	-ms-transform:translateY(-2px);
+	-o-transform:translateY(-2px);
+	transform:translateY(-2px);		
 }
 
-#btn .btn_b{
+#btn .btn_b img{
 	position:absolute;
-	margin-left:348px;	
+	margin-left:460px;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;			
 }
 
 
-#btn .btn_c{
+#btn .btn_c img{
 	position:absolute;
-	margin-left:670px;	
+	margin-left:820px;	
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;		
 }
 
 
@@ -290,7 +315,7 @@ html[xmlns] .clearfix{display:block;}
 /* --footer---------------------------------------------------------------------------- */
 		
 #footer{
-		background-color:#ba9bd2;
+		background-color:#ff7ba6;
 		width:100%;
 		height:62px;
 		}
@@ -304,6 +329,7 @@ html[xmlns] .clearfix{display:block;}
 #footer li {
 		float:left;
 	     }
+
 
 #footer li a.f01 {
 		background:url(../images/footer01.png) no-repeat;
