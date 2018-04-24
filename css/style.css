@@ -92,75 +92,6 @@ html[xmlns] .clearfix{display:block;}
 	text-align:center;
 }
 
-/*---POP UP--*/
-.pop-content{
-	width:605px;
-	height:335px;
-	background:url(../images/popup.png);
-	margin:0 auto;
-}
-
-#pop-hello{
-	display:block;
-	padding:50px 0 0 50px;
-}
-
-#pop-word{
-	font-size: 18px;
-    font-family: "微軟正黑體", Arial;
-    display: block;
-    width: 600px;
-    padding: 20px 0 0 60px;
-    text-align: left;
-}
-
-.pop-button{
-	font-family: "微軟正黑體", Arial;
-	display:block;
-	margin:0 auto;
-	margin-top:100px;
-	font-size: 18px;
-    color: #fff;
-    height: 30px;
-    line-height: 26px;
-	background-color:#e60012;
-    padding: 0 50px;
-	outline:none;
-	border:none;
-	cursor: pointer;	
-}
-
-.pop-button:hover{
-    background-color:#af0003;
-}
-
-#pop-close{
-	width:29px;
-	height:27px;
-	display:block;
-	background:url(../images/popup_close.jpg);
-	outline:none;
-	border:none;
-	float:right;
-    top: 50px;
-    margin-top: 30px;
-    margin-right: 30px;
-	cursor: pointer;
-	text-indent:-9999px;
-}
-
-#pop-show { 
-    position: fixed;
-	top: 50%;
- 	left: 50%;
- 	margin: -167px 0 0 -302px;
-    bottom: 0;
-    right: 0;
-    width: 605px;
-	height:335px;
-    text-align: center;
-    z-index: 99999;
-}
 /* --main 標題---------------------------------------------------------------------------- */
 #main{ 
 	width:1200px;
@@ -184,13 +115,13 @@ html[xmlns] .clearfix{display:block;}
 
 #main #t1 img{
 	position:absolute;
-	top: 102px;
-	left: 39px;
+	top: 60px;
+	left: 35px;
 	z-index: 9;
 }
 
 #main #t2 img{
-    top: 430px;
+    top: 460px;
     margin-left: 66px;
 	position: absolute;	
 	-webkit-transition: all 0.2s ease;
@@ -204,7 +135,7 @@ html[xmlns] .clearfix{display:block;}
 
 #main #t3 img{
 	position: absolute;
-    top: 430px;
+    top: 460px;
     margin-left: 327px;
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
