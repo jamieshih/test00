@@ -156,7 +156,7 @@ html[xmlns] .clearfix {
 
 #btn .btn_a{
 	position:absolute;
-	margin-left:20px;
+	margin-left:15px;
 }
 
 #btn .btn_a a:hover img ,.btn_b a:hover img ,.btn_c a:hover img{
@@ -168,13 +168,13 @@ html[xmlns] .clearfix {
 
 #btn .btn_b{
 	position:absolute;
-	margin-left:348px;	
+	margin-left:343px;	
 }
 
 
 #btn .btn_c{
 	position:absolute;
-	margin-left:670px;	
+	margin-left:665px;	
 }
 
 
