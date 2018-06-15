@@ -9,7 +9,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
 }
 
 map *:focus{
-outline:none;
+outline:none; 
 }
 
 body{
@@ -45,8 +45,8 @@ html[xmlns] .clearfix {
 
 /* --TAB按鈕------------------------------------- */
 
-.top_btn{position: fixed;right:0px;top: 0px;width: 224px;height:352px;background: url(images/tab_bg.png) no-repeat;margin: 0 auto;z-index: 99; padding-top:45px; padding-bottom:20px;}
-.top_btn img { margin-left:48px; }
+.top_btn{position: fixed;right:30px;top: 50px;width: 166px;height:352px;background: url(images/tab_bg.png) no-repeat;margin: 0 auto;z-index: 99; padding-top:40px; padding-bottom:20px;}
+.top_btn img { margin-left:20px; }
 .top_btn a:hover img{
 		-webkit-filter: brightness(120%);
 		/* Firefox */ -webkit-transition:  0.5s; 
@@ -65,21 +65,28 @@ html[xmlns] .clearfix {
 
 #main .bg{
 	width:1000px;
-	height: 524px;
+	height: 578px;
 	background: url(images/kv_bg.jpg) no-repeat;
 	position: relative;	
 	}
 
-#main .logo{
-	padding-left: 60px;
+#main .logo {
+	padding-left: 30px;
 	padding-top: 20px;
 	box-sizing:border-box;
+	z-index:999;
+	position:absolute;
 	}
 
+.logo img:hover {
+	-webkit-filter: brightness(110%);
+	/* Firefox */ -webkit-transition:  0.3s; 
+	/* Safari and Chrome */ -o-transition:  0.3s; 
+	/* Opera */ transition:  0.3s;		
+}
+
 #main .t1{
-	position:absolute;
-	top: 0px;
-	left: 0px;
+    position: absolute;
 	}
 
 #main .t2{
@@ -104,83 +111,56 @@ html[xmlns] .clearfix {
 .content_box01 {
 	margin:0 auto;
 	width:1000px;
-	height:749px;
 }
 
 .content_box01 ul{
 	margin:0 auto;
+	width:1000px;	
 }
-
-.content_box01 ul.box_a{
-	display:block;
-	margin-left:20px;
-	margin-top:10px;
-}
-
-.content_box01 ul.box_b{
-	display:block;
-
-}
-
 
 .content_box01 li{
 	display:inline;
 	float:left;
-	margin-top:10px;
+
 }
 
-/*.content_box01 li:hover{
-	opacity:0.9;
-	-webkit-filter: brightness(108%); 
-	filter: brightness(108%);	
-}*/
-
-.content_box03{
-	padding-top:19px;
-
-}	
-
-.content_box02 img{
+.content_box02{
 	width:1000px;
 	margin:0 auto;
-
-}
-  
-.content_box04 {
-	margin:0 auto; 
-	width:1000px;
+	clear:both;
 }
 
-#btn{
-	width:1000px;
-	height:115px;
-	margin:0 auto;
-	margin-bottom:20px;
+#btn {
+    width: 1000px;
+    height: 115px;
+    margin: 0 auto;
+    margin-bottom: 86px;
+    margin-top: 20px;
 }
 
 #btn .btn_a{
 	position:absolute;
-	margin-left:15px;
-}
-
-#btn .btn_a a:hover img ,.btn_b a:hover img ,.btn_c a:hover img{
-	-webkit-filter: brightness(110%);
-	/* Firefox */ -webkit-transition:  0.5s; 
-	/* Safari and Chrome */ -o-transition:  0.5s; 
-	/* Opera */ transition:  0.5s;			
+	margin-left:0px;
 }
 
 #btn .btn_b{
 	position:absolute;
-	margin-left:343px;	
+	margin-left:340px;	
 }
 
 
 #btn .btn_c{
 	position:absolute;
-	margin-left:665px;	
+	margin-left:685px;	
 }
 
+#btn .btn_a a:hover img ,.btn_b a:hover img ,.btn_c a:hover img{
+	-webkit-filter: brightness(120%);
+	/* Firefox */ -webkit-transition:  0.5s; 
+	/* Safari and Chrome */ -o-transition:  0.5s; 
+	/* Opera */ transition:  0.5s;
+	margin-top:1px;			
+}
 
 
 /* --box01---------------------------------------------------------------------------- */
@@ -196,14 +176,14 @@ html[xmlns] .clearfix {
 /* --footer---------------------------------------------------------------------------- */
 		
 #footer{
-		background-color:#cf884f;
+		background-color:#a90707;
 		width:100%;
-		height:62px;
+		height:71px;
 		}
 
 #footer ul{
 		width:1000PX;
-		height:62PX;
+		height:71PX;
 		margin:0 auto;
 		}
 		
@@ -213,13 +193,13 @@ html[xmlns] .clearfix {
 
 #footer li a.f01 {
 		background:url(images/footer01.png) no-repeat;
-		width:200px;
-		height:62px;
+		width:250px;
+		height:71px;
 		display:block;
 	     }
 		 
 #footer li a.f01:hover {
-		background-color:#e49a5f;
+		background-color:#850001;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -228,13 +208,13 @@ html[xmlns] .clearfix {
 		 
 #footer li a.f02 {
 		background:url(images/footer02.png) no-repeat;
-		width:200px;
-		height:62px;
+		width:250px;
+		height:71px;
 		display:block;
 	     }
 		 
 #footer li a.f02:hover {
-		background-color:#e49a5f;
+		background-color:#850001;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -243,13 +223,13 @@ html[xmlns] .clearfix {
 
 #footer li a.f03 {
 		background:url(images/footer03.png) no-repeat;
-		width:200px;
-		height:62px;
+		width:250px;
+		height:71px;
 		display:block;
 	     }
 		 
 #footer li a.f03:hover {
-		background-color:#e49a5f;
+		background-color:#850001;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -258,13 +238,13 @@ html[xmlns] .clearfix {
 		 
 #footer li a.f04 {
 		background:url(images/footer04.png) no-repeat;
-		width:200px;
-		height:62px;
+		width:250px;
+		height:71px;
 		display:block;
 	     }
 		 
 #footer li a.f04:hover {
-		background-color:#e49a5f;
+		background-color:#850001;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -273,13 +253,13 @@ html[xmlns] .clearfix {
 		 
 #footer li a.f05 {
 		background:url(images/footer05.png) no-repeat;
-		width:200px;
-		height:62px;
+		width:250px;
+		height:71px;
 		display:block;
 	     }
 		 
 #footer li a.f05:hover {
-		background-color:#e49a5f;
+		background-color:#850001;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
