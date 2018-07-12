@@ -1,7 +1,4 @@
 /*---POP UP--*/
-body{
-	background-color:#000;
-}
 .pop-content{
 	width:605px;
 	height:335px;
@@ -15,7 +12,7 @@ body{
 }
 
 #pop-word{
-	font-size: 16px;
+	font-size: 17px;
     font-family: "微軟正黑體", Arial;
     display: block;
     width: 520px;
@@ -29,11 +26,11 @@ body{
 	font-family: "微軟正黑體", Arial;
 	display:block;
 	margin:0 auto;
-	font-size: 16px;
+	font-size: 18px;
     color: #fff;
     height: 30px;
     line-height: 26px;
-	background-color:#b90718;
+	background-color:#5ca3cc;
     padding: 0 50px;
 	outline:none;
 	border:none;
@@ -41,7 +38,7 @@ body{
 }
 
 .pop-button:hover{
-    background-color:#e00015;
+    background-color:#086397;
 	-moz-transition: opacity 0.5s; 
 	/* Firefox */ -webkit-transition:  0.5s; 
 	/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -63,7 +60,7 @@ body{
 	text-indent:-9999px;
 }
 
-
+/*
 #pop-show { 
     position: fixed;
 	top: 50%;
@@ -75,5 +72,4 @@ body{
 	height:335px;
     text-align: center;
     z-index: 99999;
-	
-}
+}*/
