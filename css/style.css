@@ -24,7 +24,7 @@ html[xmlns] .clearfix{display:block;}
 /*header*/
 #header{
 	width: 100%;
-    height: 62px;
+    height: 56px;
    /* position: fixed;*/
     z-index: 10000;
     top: 0;
@@ -80,21 +80,21 @@ html[xmlns] .clearfix{display:block;}
 
 /*轉盤*/
 #game-bg {
-	width: 535px;
-    height: 532px;
+    width: 560px;
+    height: 560px;
     margin: 0 auto;
     position: absolute;
-    background: url(../images/game_bg.png);
-    top: 262px;
-    left: 324px;
+    background: url(../images/game_bg.gif);
+    top: 235px;
+    left: 320px;
 }
 
 #game-rotate{
 	width: 474px;
     height: 474px;
     position: absolute;
-    left: 30px;
-    top: 33px;
+    left: 37px;
+    top: 34px;
 	animation: 50s self-rotate infinite linear;
 }
 /*	@keyframes self-rotate {
@@ -114,8 +114,8 @@ html[xmlns] .clearfix{display:block;}
 	width: 210px;
     height: 220px;
     position: absolute;
-	left: 165px;
-    top: 155px;
+    left: 178px;
+    top: 162px;
 	cursor: pointer;
 	filter:drop-shadow(0px 0px 5px rgba(0,0,0,0)) contrast(100%);	
 	display:block;
@@ -130,13 +130,15 @@ html[xmlns] .clearfix{display:block;}
     margin-left: 145px;
 }
 
+
 #game-pointer02{
 	width: 210px;
     height: 220px;
     position: absolute;
-	left: 165px;
-    top: 155px;
+    left: 178px;
+    top: 162px;
 	cursor: pointer;
+	background-image:url(../images/game_pointer02.png);
 	filter:drop-shadow(0px 0px 5px rgba(0,0,0,.5)) contrast(100%);	
 	display:none;
 }
@@ -145,20 +147,8 @@ html[xmlns] .clearfix{display:block;}
 	width: 210px;
     height: 220px;
     position: absolute;
-	left: 190px;
-    top: 220px;
-	cursor: pointer;
-	background-image:url(../images/game_pointer03.png);
-	filter:drop-shadow(0px 0px 5px rgba(0,0,0,.5)) contrast(100%);	
-	display:none;
-}
-
-#game-pointer04{
-	width: 210px;
-    height: 220px;
-    position: absolute;
-	left: 190px;
-    top: 220px;
+    left: 178px;
+    top: 162px;
 	cursor: pointer;
 	filter:drop-shadow(0px 0px 5px rgba(0,0,0,.5)) contrast(100%);		
 	display:none;
@@ -168,14 +158,14 @@ html[xmlns] .clearfix{display:block;}
     position: absolute;
     width: 50px;
     height: 50px;
-    color: #f40000;
-    font-size: 48px;
+    color: #000;
+    font-size: 44px;
     font-family: Verdana, Geneva, sans-serif;
-    left: 73px;
-    top: 72px;
+    left: 54px;
+    top: 87px;
     text-align: center;
     font-weight: bold;
-	letter-spacing:-0.1em;
+    letter-spacing: -0.1em;
 }
 
 
@@ -190,7 +180,7 @@ html[xmlns] .clearfix{display:block;}
 
 .main-bg{
 	width:1200px;
-	height: 800px;	
+	height: 805px;	
 	position: relative;	
 	clear:both;
 }
@@ -203,8 +193,16 @@ html[xmlns] .clearfix{display:block;}
 #main #t1 img{
 	position:absolute;
 	top: 10px;
-	left: 250px;
+	left: 255px;
 	z-index: 9;
+}
+
+#main #t1 img:hover{
+	filter: brightness(110%);
+	-webkit-filter: brightness(110%);
+	/* Firefox */ -webkit-transition:  0.5s; 
+	/* Safari and Chrome */ -o-transition:  0.5s; 
+	/* Opera */ transition:  0.5s;
 }
 
 #main #t2 img{
@@ -462,7 +460,7 @@ html[xmlns] .clearfix{display:block;}
 /*header*/
 #header{
 	width: 100%;
-    height: 62px;
+    height: 56px;
 	position: fixed;
     z-index: 10000;
     top: 0;
