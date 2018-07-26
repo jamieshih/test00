@@ -85,6 +85,7 @@ html[xmlns] .clearfix {
 
 #main .t1{
 	position:absolute;
+	width:100px;
 	top: 0px;
 	left: 0px;
 	}
@@ -290,5 +291,12 @@ html[xmlns] .clearfix {
 @media screen and (min-width: 768px) and (max-width: 1024px) { 
     .top_btn { display: none;}
 
-	
+	body{
+	background:none;
+	display:block;
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-color:#ffe767;
+	margin: 0;
+	}
 }		 
