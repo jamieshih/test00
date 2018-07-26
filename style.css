@@ -111,6 +111,7 @@ html[xmlns] .clearfix {
 	
 .content_box01 {
 	margin:0 auto;
+	background:url(images/content01_bg.jpg) no-repeat;
 	width:1000px;
 	height:740px;
 }
