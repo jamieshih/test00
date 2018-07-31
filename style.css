@@ -3,7 +3,7 @@
 
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
-    margin: 0;
+    margin: 0; 
     padding: 0;
   
 }
@@ -19,7 +19,7 @@ body{
 	background-attachment: scroll;
 	background-color:#dcf0fd;
 	margin: 0;
-	}
+	} 
 
 img{ display:block; border:0;}
 
@@ -45,11 +45,11 @@ html[xmlns] .clearfix {
 
 /* --TAB按鈕------------------------------------- */
 
-.top_btn{position: fixed;right:10px;top: 20px;width: 181px;height:355px;background: url(images/tab_bg.png) no-repeat;margin: 0 auto;z-index: 99; padding-top:45px; padding-bottom:20px; text-align:center;font-weight:bold;}
-.top_btn img { margin-left:40px; }
-.top_btn ul { width:115px; margin:0 auto; margin-top:20px;}
-.top_btn li a{ font-family: Microsoft JhengHei; font-size:15px; color:#ba741c; text-decoration:none; line-height:45px;  letter-spacing:-0.5px;}
-.top_btn li a:hover { color:#C30; 		
+.top_btn{position: fixed;right:30px;top: 0px;width: 145px;height:309px;background: url(images/tab_bg.png) no-repeat;margin: 0 auto;z-index: 99; padding-top:10px; padding-bottom:20px; text-align:center;font-weight:bold;}
+.top_btn img { margin-left:37px; }
+.top_btn ul { width:115px; margin:0 auto; }
+.top_btn li a{ font-family: Microsoft JhengHei; font-size:15px; color:#fff; text-decoration:none; line-height:43px;  letter-spacing:-0.5px;}
+.top_btn li a:hover { color:#fffbbf; 		
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
 		/* Opera */ transition:  0.5s;	
@@ -61,8 +61,6 @@ html[xmlns] .clearfix {
 		/* Opera */ transition:  0.5s;		
 }
 
-
-
 /* --main 標題---------------------------------------------------------------------------- */
 
 #main{ width:1000px;
@@ -72,7 +70,7 @@ html[xmlns] .clearfix {
 
 #main .bg{
 	width:1000px;
-	height: 562px;
+	height: 550px;
 	background: url(images/kv_bg.jpg) no-repeat;
 	position: relative;	
 	}
@@ -84,10 +82,9 @@ html[xmlns] .clearfix {
 	}
 
 #main .t1{
-	position:absolute;
-	width:100px;
-	top: 0px;
-	left: 0px;
+	position: absolute;
+    top: 75px;
+    left: 161px;
 	}
 
 #main .t2{
@@ -111,42 +108,24 @@ html[xmlns] .clearfix {
 	
 .content_box01 {
 	margin:0 auto;
-	background:url(images/content01_bg.jpg) no-repeat;
 	width:1000px;
-	height:740px;
 }
 
 .content_box01 ul{
 	margin:0 auto;
-	margin-left:50px;
+	width:1000px;	
 }
-
 
 .content_box01 li{
 	display:inline;
 	float:left;
-	margin-top:10px;
-	margin-left:15px;
+
 }
 
-/*.content_box01 li:hover{
-	opacity:0.9;
-	-webkit-filter: brightness(108%); 
-	filter: brightness(108%);	
-}*/
-
-.content_box03{
-}	
-
-.content_box02 img{
+.content_box02{
 	width:1000px;
 	margin:0 auto;
-
-}
-  
-.content_box04 {
-	margin:0 auto; 
-	width:1000px;
+	clear:both;
 }
 
 #btn{
@@ -179,11 +158,12 @@ html[xmlns] .clearfix {
 }
 
 #btn .btn_a a:hover img ,.btn_b a:hover img ,.btn_c a:hover img ,.btn_d a:hover img{
-	-webkit-filter: brightness(110%);
+	-webkit-filter: brightness(115%);
 	/* Firefox */ -webkit-transition:  0.5s; 
 	/* Safari and Chrome */ -o-transition:  0.5s; 
 	/* Opera */ transition:  0.5s;			
 }
+
 
 
 /* --box01---------------------------------------------------------------------------- */
@@ -199,7 +179,7 @@ html[xmlns] .clearfix {
 /* --footer---------------------------------------------------------------------------- */
 		
 #footer{
-		background-color:#ff7800;
+		background-color:#902020;
 		width:100%;
 		height:62px;
 		}
@@ -222,7 +202,7 @@ html[xmlns] .clearfix {
 	     }
 		 
 #footer li a.f01:hover {
-		background-color:#ff5400;
+		background-color:#bd2121;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -237,7 +217,7 @@ html[xmlns] .clearfix {
 	     }
 		 
 #footer li a.f02:hover {
-		background-color:#ff5400;
+		background-color:#bd2121;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -252,7 +232,7 @@ html[xmlns] .clearfix {
 	     }
 		 
 #footer li a.f03:hover {
-		background-color:#ff5400;
+		background-color:#bd2121;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -267,7 +247,7 @@ html[xmlns] .clearfix {
 	     }
 		 
 #footer li a.f04:hover {
-		background-color:#ff5400;
+		background-color:#bd2121;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -282,7 +262,7 @@ html[xmlns] .clearfix {
 	     }
 		 
 #footer li a.f05:hover {
-		background-color:#ff5400;
+		background-color:#bd2121;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -291,13 +271,4 @@ html[xmlns] .clearfix {
 		 
 @media screen and (min-width: 768px) and (max-width: 1024px) { 
     .top_btn { display: none;}
-
-	body{
-	background:none;
-	display:block;
-	background-repeat:no-repeat;
-	background-position:top center;
-	background-color:#ffe767;
-	margin: 0;
-	}
 }		 
