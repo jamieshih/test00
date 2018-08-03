@@ -89,7 +89,7 @@
             <h2>网友口碑推荐</h2>
         </div>   
 
-    	  <div class="regular slider">
+    	  <div class="responsive slider">
         <div>
           <a href="#"><img src="images/A-1.jpg"><p><b>网友1 </b><br>在日本买了很多东西，多亏了有买大叔代拍网 0元服务费活动，包装给力，客服服务很到位，打包的也很好，买了40斤的东西，还没有被关税超开心，感谢买大叔代拍网，给我最快捷安心的海外购物体验。</p></a>
         </div>
@@ -121,21 +121,43 @@
   <script src="./slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript">
 
-      $(".regular").slick({
-        dots: true,
-        infinite: true,
-        slidesToShow: 2,
-        slidesToScroll: 2
-		
-      });
-      $(".center").slick({
-        dots: true,
-        infinite: true,
-        centerMode: true,
-        slidesToShow: 5,
-        slidesToScroll: 3
-      
-    });
+
+  $('.responsive').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    autoplay: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
 
 
 
