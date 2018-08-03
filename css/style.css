@@ -27,7 +27,8 @@ html, body {
 
 #header-content{
   margin:0 auto; 
-  width:1000px;
+  width:100%;  
+  max-width: 1100px; 
   height:85px;
   padding: 5px;
 }
@@ -44,6 +45,7 @@ html, body {
 #header h1 img{
   width:100%;
   padding-top: 20px;
+  padding-left: 20px;
 }
 
 
@@ -86,70 +88,115 @@ html, body {
     padding: 0 5px 0 5px;
 }
 
-
-.adbanner{
-  position: relative;
+.adbanner {
     width: 100%;
     height: 600px;
-    margin-bottom: 30px;
     background-color: #FF9;
-    background: url(../images/ad.jpg)center 0 no-repeat;
+    background: url(../images/ad.jpg) center 0 no-repeat;
+}
+
+.s_title {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+
+.s_title h2{
+    color: #000;
+    font-size: 40px;
+    padding: 20px 0 40px 0;
+}
+
+#mainslider{
+  width: 100%;
+  height: auto;
+  background: #f6f6f6;
+  padding:40px 0px;
+}
+
+/*.sider design*/
+.slider {
+  width: 60%;
+  margin: 0 auto;
+  background: #fff; 
+  padding: 20px 6px 0 6px;
+  }
+
+.slick-slide {
+  background: #fff;
+  margin: 0px 10px;
+ }
+
+.slick-slide img {
+  width: 100%;
+  transition: all 0.3s linear;
+  margin-bottom:10px ;
+  opacity: 0.9;
+}
+  
+.slick-slide img:hover {
+  opacity: 1;
+  transform: scale(1.01);
+}    
+
+.slick-slide a {
+  text-decoration:none;
+}
+	
+.slick-slide p {
+  color:#333;
+	font-size:14px;
+	line-height:20px;
+  padding: 10px;
+}
+
+.slick-slide b {
+	color:#4eb6b5;
+	font-size:20px;
+	line-height:30px;
+}
+		
+.slick-prev:before,
+.slick-next:before {
+  color: black;
 }
 
 
-/*.sider design*/
-  .slider {
-    width: 900px;
-    margin: 100px auto;
-    }
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
 
-    .slick-slide {
-      margin: 0px 20px;
-    }
+.slick-active {
+  opacity: 1;
+}
 
-    .slick-slide img {
-      width: 100%;
-      transition: all 0.3s linear;
-      margin-bottom:10px ;
-       opacity: 0.9;
-    }
-  
-    .slick-slide img:hover {
+.slick-current {
     opacity: 1;
-    transform: scale(1.01);
-    }    
-
-    .slick-slide a {
-		text-decoration:none;
-    }
-	
-    .slick-slide p {
-		color:#333;
-		font-size:14px;
-		line-height:20px;
-    }
-
-    .slick-slide b {
-		color:#4eb6b5;
-		font-size:20px;
-		line-height:30px;
-    }
-		
-    .slick-prev:before,
-    .slick-next:before {
-      color: black;
-    }
+}
 
 
-    .slick-slide {
-      transition: all ease-in-out .3s;
-      opacity: .2;
-    }
 
-    .slick-active {
-      opacity: 1;
-    }
+/* --手機版型------------------------------------- */
 
-    .slick-current {
-      opacity: 1;
-    }
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+
+.slick-slide p {
+  color:#333;
+  font-size:14px;
+  line-height:10px;
+  padding: 10px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical; 
+  -webkit-line-clamp: 4; 
+  line-height: 20px;
+  max-height: 80px;
+  overflow: hidden;
+}
+
+
+
+
+}
