@@ -1,8 +1,41 @@
 @charset "utf-8";
 /* CSS Document */
 
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
-map :focus{outline:none;}
+
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+  
+}
+
+map *:focus{
+outline:none; 
+}
+
+img{ display:block; border:0;}
+
+ol,ul,li{
+ list-style:none;
+}
+
+
+.clearfix::after {
+    clear: both;
+
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+  display:inline-block;
+    
+}
+html[xmlns] .clearfix {
+    display: block;
+}
+
+/**/
 
 html, body {
 	margin: 0;
@@ -88,7 +121,7 @@ html, body {
     padding: 0 5px 0 5px;
 }
 
-.adbanner {
+#adbanner {
     width: 100%;
     height: 600px;
     background-color: #FF9;
@@ -104,9 +137,59 @@ html, body {
 
 .s_title h2{
     color: #000;
-    font-size: 40px;
+    font-size: 38px;
     padding: 20px 0 40px 0;
+    font-weight: 500;
 }
+
+
+#content_whyuse {
+  max-width: 1100px; 
+  height: auto;
+  padding:40px 0px;
+  margin: 0 auto;
+  
+}
+
+#content_whyuse ul{ 
+  overflow:hidden; 
+  margin-top:20px;
+}
+#content_whyuse li{ 
+  float:left; 
+  width:25%; 
+  text-align:center; 
+  padding-bottom:5px;
+  
+}
+
+#content_whyuse .pic{ 
+  border-radius: 50%; 
+  background-color:#bbe9e8; 
+  width:160px; 
+  height:160px; 
+  display:inline-block; 
+
+}
+
+#content_whyuse .fas{ 
+  color:#fff; 
+  font-size:80px;
+  padding: 40px 0 0 0;
+}
+#content_whyuse strong{
+  display:block; 
+  font-weight:600;
+  font-size:18px; 
+  margin:20px 0;
+}
+
+#content_whyuse p{ 
+  font-size:14px; 
+  color:#767676;
+}
+
+
 
 #mainslider{
   width: 100%;
@@ -114,6 +197,7 @@ html, body {
   background: #f6f6f6;
   padding:40px 0px;
 }
+
 
 /*.sider design*/
 .slider {
@@ -147,8 +231,8 @@ html, body {
 .slick-slide p {
   color:#333;
 	font-size:14px;
-	line-height:20px;
-  padding: 10px;
+	line-height:22px;
+  padding: 10px 0 20px 0 ;
 }
 
 .slick-slide b {
@@ -177,26 +261,63 @@ html, body {
 }
 
 
+/*loading*/
+.loading {
+    border: 2px dashed #bbe9e8;
+    border-right: 2px dashed #bbe9e8;
+    border-bottom: 2px dashed #bbe9e8;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    -webkit-animation: loading 10s infinite linear;
+    -moz-animation: loading 10s infinite linear;
+    -o-animation: loading 10s infinite linear;
+    animation: loading 10s infinite linear;
+    position: absolute;
+    margin-left: 51px;
+    margin-top: -7px;    
+}
+
+
+
+@-webkit-keyframes loading {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes loading {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-o-keyframes loading {
+    from {
+        -o-transform: rotate(0deg);
+    }
+    to {
+        -o-transform: rotate(360deg);
+    }
+}
+@keyframes loading {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
 
 /* --手機版型------------------------------------- */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) { 
-
-.slick-slide p {
-  color:#333;
-  font-size:14px;
-  line-height:10px;
-  padding: 10px;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical; 
-  -webkit-line-clamp: 4; 
-  line-height: 20px;
-  max-height: 80px;
-  overflow: hidden;
-}
-
-
 
 
 }
