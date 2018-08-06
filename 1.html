@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>無標題文件</title>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+</head>
+
+<body>
+<style type="text/css">
+    * { margin:0; padding:0; }//reset css
+    .box { width:100%; height:1500px; background:gray; } 
+    .two { width:100%; height:500px; background:orange; }
+    .one { width:100%; height:500px; background:pink; position:relative; }
+    .one h2 { width:100%; }
+    .one h2 img{ width:200px; height:200px; border-radius:50%;margin:0 0 0 -100px;left:50%; top:100px; display:block; position:absolute;}
+    .animated { animation-duration:1s;-webkit-animation-duration:1s; -webkit-animation-fill-mode: both;animation-fill-mode: both; }
+    .move { animation-name:move; -webkit-animation-name:move;}
+    @keyframes move { 
+        0% { opacity:0; top:100px;}
+        50% { opacity:0.5; top:100px;}
+        100% { opacity:1; top:100px;}
+    }
+    @-webkit-keyframes move { 
+        0% { opacity:0; top:100px;}
+        50% { opacity:0.5; top:100px;}
+        100% { opacity:1; top:100px;}
+    
+
+</style>
+<body>
+<div class="box">
+    <div class="two"></div>
+    <div class="one">
+        <h2><img class="img01" src="images/A-1.jpg" /></h2>
+    </div>
+</div>
+
+
+<script>
+        function getTop(clsName){ 
+            var obj = document.getElementsByClassName(clsName)[0];
+            return obj.getBoundingClientRect().top;
+        }
+
+        function getDom(clsName){
+            var obj=document.getElementsByClassName(clsName)[0];
+            return obj;
+        }
+
+
+
+        window.addEventListener('scroll',function(){
+            var scrollT=document.documentElement.scrollTop||document.body.scrollTop;
+
+            /*第二页动画的触发*/
+            if(getTop('one')<800){
+                getDom('img01').classList.add('animated');
+                getDom('img01').classList.add('move');
+
+            }
+        })
+</script>
+
+</body>
+
+
+
+</html>
