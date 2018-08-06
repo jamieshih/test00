@@ -164,14 +164,6 @@ html, body {
   
 }
 
-#content_whyuse .pic{ 
-  border-radius: 50%; 
-  background-color:#bbe9e8; 
-  width:160px; 
-  height:160px; 
-  display:inline-block; 
-
-}
 
 #content_whyuse .fas{ 
   color:#fff; 
@@ -191,6 +183,67 @@ html, body {
   color:#767676;
 }
 
+
+#content_whyuse .pic{ 
+  border-radius: 50%; 
+  background-color:#bbe9e8; 
+  width:160px; 
+  height:160px; 
+  display:inline-block;
+  position:relative;
+}
+/*loading*/
+.loading {
+    border: 2px dashed #bbe9e8;
+    border-right: 2px dashed #bbe9e8;
+    border-bottom: 2px dashed #bbe9e8;
+    height: 168px;
+    width: 168px;
+    border-radius: 50%;
+    -webkit-animation: loading 10s infinite linear;
+    -moz-animation: loading 10s infinite linear;
+    -o-animation: loading 10s infinite linear;
+    animation: loading 10s infinite linear;
+	display:inline-block;
+	position:absolute;
+	margin-left:-6px;
+	margin-top:-5px;
+}
+
+
+
+@-webkit-keyframes loading {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes loading {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-o-keyframes loading {
+    from {
+        -o-transform: rotate(0deg);
+    }
+    to {
+        -o-transform: rotate(360deg);
+    }
+}
+@keyframes loading {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 
 
 #mainslider{
@@ -265,57 +318,6 @@ html, body {
 }
 
 
-/*loading*/
-.loading {
-    border: 2px dashed #bbe9e8;
-    border-right: 2px dashed #bbe9e8;
-    border-bottom: 2px dashed #bbe9e8;
-    height: 170px;
-    width: 170px;
-    border-radius: 50%;
-    -webkit-animation: loading 10s infinite linear;
-    -moz-animation: loading 10s infinite linear;
-    -o-animation: loading 10s infinite linear;
-    animation: loading 10s infinite linear;
-    position: absolute;
-    margin-left: 50px;
-    margin-top: -7px;
-}
-
-
-
-@-webkit-keyframes loading {
-    from {
-        -webkit-transform: rotate(0deg);
-    }
-    to {
-        -webkit-transform: rotate(360deg);
-    }
-}
-@-moz-keyframes loading {
-    from {
-        -moz-transform: rotate(0deg);
-    }
-    to {
-        -moz-transform: rotate(360deg);
-    }
-}
-@-o-keyframes loading {
-    from {
-        -o-transform: rotate(0deg);
-    }
-    to {
-        -o-transform: rotate(360deg);
-    }
-}
-@keyframes loading {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
 
 
 
@@ -526,24 +528,19 @@ html, body {
 	color:#333;
 	font-size:13px;
 	line-height:18px;
-  	padding: 10px 0 40px 0 ;
-    position:relative;
-    /* 高度为需要显示的行数*行高，比如这里我们显示两行，则为3 */
-    height:6em;
-    overflow:hidden;
+  	padding: 0px 0 40px 0 ;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+	max-height:60px;
 }
 
-.slick-slide p:after {
-    content:"...";
-    position:absolute;
-    bottom:0;
-    right:0;
-    background-color: #fff;
-}
+
 .slick-slide b {
 	color:#4eb6b5;
-	font-size:20px;
-	line-height:30px;
+	font-size:16px;
+	line-height:26px;
 }
 		
 .slick-prev:before,
@@ -565,10 +562,5 @@ html, body {
     opacity: 1;
 }
 
-
-/*loading*/
-.loading {
-	display:none;
-}
 
 
