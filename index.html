@@ -15,7 +15,8 @@
   <link rel="stylesheet" type="text/css" href="css/animate.min.css">
   <!--font-awesome-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-
+  <!--RWD NAV-->
+  <link rel="stylesheet" type="text/css" href="css/frame.css" />
 </head>
 <body>
 
@@ -39,6 +40,22 @@
                       
                 </ul>
             </div>
+            
+            
+			<nav id="mobile">
+				<div id="navBtn">
+					</div>
+				<ul>
+                    <li><i class="fas fa-user"></i>
+                      <a href="#" class="hvr-underline-from-left">ABOUT ME</a></li>
+
+                    <li><i class="fas fa-crop-alt"></i>
+                      <a href="#" class="hvr-underline-from-left">PORTFOLIO</a></li>
+
+                    <li><i class="fas fa-envelope-open"></i>
+                      <a href="#" class="hvr-underline-from-left">CONTACT</a></li>
+	</ul>
+		</nav>
             </div>
         </div>
         <!--header ed-->
@@ -211,6 +228,26 @@ wow.init();
 </script>
 
 
+	<script type="text/javascript">
+		$(document).ready(function () {
+			
+			$('nav#mobile #navBtn').click(function () {
+				if ($('nav#mobile #navBtn').hasClass('navOpen')) {
+						$('nav#mobile ul').animate({
+								'left' : '-100%'
+						}, 300);
+						$('nav#mobile #navBtn').removeClass();
+				}else {
+						$('nav#mobile ul').animate({
+								'left' : '0px'
+						}, 300);
+						$('nav#mobile #navBtn').addClass('navOpen');
+				}
+			});
+			
+		});
+	</script>
+    
 <!--
 <script type="text/javascript">
 $(function(){
