@@ -14,10 +14,17 @@
     .grid {
       margin: 0 auto;
       padding: 10px;
-      -webkit-perspective: 1000px;
-      perspective: 1000px;
+      -webkit-perspective: 800px;
+      perspective: 800px;
 	  height:800px;
     }
+
+
+	.grid img{
+		float:left;
+		display:block;
+		padding:12px;
+	}
 
     .grid-item {
       width: 200px;
@@ -47,81 +54,185 @@
     }
 
     .grid-item:nth-child(1) .fancybox {
-      background-image: url(../images/img01.jpg);
+      background-image: url(../images/event/event21.jpg);
     }
-
+	
     .grid-item:nth-child(2) .fancybox {
-      background-image: url(../images/img02.jpg);
+      background-image: url(../images/event/event22.jpg);
     }
 
     .grid-item:nth-child(3) .fancybox {
-      background-image: url(../images/img03.jpg);
+      background-image: url(../images/event/event23.jpg);
     }
 
     .grid-item:nth-child(4) .fancybox {
-      background-image: url(../images/img04.jpg);
+      background-image: url(../images/event/event24.jpg);
     }
 
     .grid-item:nth-child(5) .fancybox {
-      background-image: url(../images/img05.jpg);
+      background-image: url(../images/event/event25.jpg);
     }
-
+	
     .grid-item:nth-child(6) .fancybox {
-      background-image: url(../images/img06.jpg);
+      background-image: url(../images/event/event01.jpg);
     }
-
+	
     .grid-item:nth-child(7) .fancybox {
-      background-image: url(../images/img07.jpg);
+      background-image: url(../images/event/event02.jpg);
     }
 
     .grid-item:nth-child(8) .fancybox {
-      background-image: url(../images/img08.jpg);
+      background-image: url(../images/event/event03.jpg);
     }
 
     .grid-item:nth-child(9) .fancybox {
-      background-image: url(http://poiemaweb.com/assets/images/dribbble-9.png);
+      background-image: url(../images/event/event04.jpg);
     }
 
     .grid-item:nth-child(10) .fancybox {
-      background-image: url(http://poiemaweb.com/assets/images/dribbble-10.png);
+      background-image: url(../images/event/event05.jpg);
     }
 
     .grid-item:nth-child(11) .fancybox {
-      background-image: url(http://poiemaweb.com/assets/images/dribbble-11.png);
+      background-image: url(../images/event/event06.jpg);
     }
-
+	
     .grid-item:nth-child(12) .fancybox {
-      background-image: url(http://poiemaweb.com/assets/images/dribbble-12.png);
+      background-image: url(../images/event/event07.jpg);
     }
 
     .grid-item:nth-child(13) .fancybox {
-      background-image: url(http://poiemaweb.com/assets/images/dribbble-13.png);
+      background-image: url(../images/event/event08.jpg);
     }
 
     .grid-item:nth-child(14) .fancybox {
-      background-image: url(http://poiemaweb.com/assets/images/dribbble-14.png);
+      background-image: url(../images/event/event09.jpg);
     }
 
     .grid-item:nth-child(15) .fancybox {
-      background-image: url(http://poiemaweb.com/assets/images/dribbble-15.png);
-    }
+      background-image: url(../images/event/event10.jpg);
+    }	
 
     .grid-item:nth-child(16) .fancybox {
-      background-image: url(http://poiemaweb.com/assets/images/dribbble-16.png);
+      background-image: url(../images/event/event11.jpg);
     }
-
+	
     .grid-item:nth-child(17) .fancybox {
-      background-image: url(http://poiemaweb.com/assets/images/dribbble-17.png);
+      background-image: url(../images/event/event12.jpg);
     }
 
     .grid-item:nth-child(18) .fancybox {
-      background-image: url(http://poiemaweb.com/assets/images/dribbble-18.png);
+      background-image: url(../images/event/event13.jpg);
     }
 
     .grid-item:nth-child(19) .fancybox {
-      background-image: url(http://poiemaweb.com/assets/images/dribbble-19.png);
+      background-image: url(../images/event/event14.jpg);
     }
 
+    .grid-item:nth-child(20) .fancybox {
+      background-image: url(../images/event/event15.jpg);
+    }	
+
+    .grid-item:nth-child(21) .fancybox {
+      background-image: url(../images/event/event16.jpg);
+    }
+	
+    .grid-item:nth-child(22) .fancybox {
+      background-image: url(../images/event/event17.jpg);
+    }
+
+    .grid-item:nth-child(23) .fancybox {
+      background-image: url(../images/event/event18.jpg);
+    }
+
+    .grid-item:nth-child(24) .fancybox {
+      background-image: url(../images/event/event19.jpg);
+    }
+
+    .grid-item:nth-child(25) .fancybox {
+      background-image: url(../images/event/event20.jpg);
+    }	
+	
+    .grid-item:nth-child(26) .fancybox {
+      background-image: url(../images/bn/bn01.jpg);
+    }		
+
+    .grid-item:nth-child(27) .fancybox {
+      background-image: url(../images/bn/bn02.jpg);
+    }		
+	
+    .grid-item:nth-child(28) .fancybox {
+      background-image: url(../images/bn/bn03.jpg);
+    }		
+
+    .grid-item:nth-child(29) .fancybox {
+      background-image: url(../images/bn/bn04.jpg);
+    }		
+
+    .grid-item:nth-child(30) .fancybox {
+      background-image: url(../images/bn/bn05.jpg);
+    }		
+	
+    .grid-item:nth-child(31) .fancybox {
+      background-image: url(../images/bn/bn06.jpg);
+    }				
+
+    .grid-item:nth-child(32) .fancybox {
+      background-image: url(../images/bn/bn07.jpg);
+    }		
+	
+    .grid-item:nth-child(33) .fancybox {
+      background-image: url(../images/bn/bn08.jpg);
+    }		
+
+    .grid-item:nth-child(34) .fancybox {
+      background-image: url(../images/bn/bn09.jpg);
+    }		
+
+    .grid-item:nth-child(35) .fancybox {
+      background-image: url(../images/bn/bn10.jpg);
+    }		
+	
+    .grid-item:nth-child(36) .fancybox {
+      background-image: url(../images/bn/bn11.jpg);
+    }					
+		
+    .grid-item:nth-child(37) .fancybox {
+      background-image: url(../images/bn/bn12.jpg);
+    }	
+	
+    .grid-item:nth-child(38) .fancybox {
+      background-image: url(../images/bn/bn13.jpg);
+    }					
+		
+    .grid-item:nth-child(39) .fancybox {
+      background-image: url(../images/bn/bn14.jpg);
+    }							
+	
+    .grid-item:nth-child(40) .fancybox {
+      background-image: url(../images/bn/bn15.jpg);
+    }		
+
+    .grid-item:nth-child(41) .fancybox {
+      background-image: url(../images/web/web01.jpg);
+    }					
+		
+    .grid-item:nth-child(42) .fancybox {
+      background-image: url(../images/web/web02.jpg);
+    }							
+	
+    .grid-item:nth-child(43) .fancybox {
+      background-image: url(../images/web/web03.jpg);
+    }	
+	
+    .grid-item:nth-child(44) .fancybox {
+      background-image: url(../images/web/web04.jpg);
+    }							
+	
+    .grid-item:nth-child(45) .fancybox {
+      background-image: url(../images/web/web05.jpg);
+    }	
+					
     .grid-item:nth-child(4n-5) {
       height: 200px;
     }
