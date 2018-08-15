@@ -489,7 +489,7 @@ html, body {
 
 #header h1{
   width: 223px;
-  height: 32px;
+  height: auto;
   border: 0;
 }
 
@@ -497,9 +497,11 @@ html, body {
 #header h1 a{
   display:block;
 }
+
 #header h1 img{
   width:100%;
-  padding-left: 70px;
+  display:block;
+  margin:0 auto;
 }
 
 
@@ -563,7 +565,6 @@ html, body {
 
 
 #content_skills {
-  max-width: 1100px; 
   height: auto;
   padding:80px 0px;
   margin: 0 auto;
@@ -639,7 +640,7 @@ html, body {
   margin: 0 auto;
   display: block; 
   background-color:#4eb6b5;
-  padding:80px 0px;
+  padding:30px 0px;
   text-align: center;
 }
 
@@ -662,8 +663,8 @@ html, body {
 }
 
 #content_exp li{
-	letter-spacing:0.2em;
-	font-size:16px;
+	letter-spacing:0em;
+	font-size:15px;
 	color:#fff;
 	line-height:36px;
 	text-align:left;
@@ -699,7 +700,7 @@ html, body {
 	color:#242323;
 	line-height:30px;
 	letter-spacing:1px;
-	padding:10px 50px;
+	padding:10px 4px;
 }
 
 #content_works{
@@ -730,13 +731,14 @@ html, body {
 .filter li{	
 	float:left;
 	display: inline-block;
-    margin-left: 20px;	
+    margin-left: 10px;	
 }
 
 .filter li a{
     background: #4eb6b5;
+	font-size:12px;
     color: #fff;
-    padding: 6px 14px;
+    padding: 3px 10px;
     line-height: 40px;
 	text-decoration:none;
 }
