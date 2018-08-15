@@ -177,7 +177,7 @@ html, body {
 
 #content_skills .pic{ 
   border-radius: 50%; 
-  background-color:#4eb6b5; 
+  background-color:#65d4d3;
   width: 130px;
   height: 130px;
   display:inline-block; 
@@ -241,7 +241,7 @@ html, body {
 
 #content_exp li{
 	letter-spacing:0.2em;
-	font-size:16px;
+	font-size:15px;
 	color:#fff;
 	line-height:36px;
 	text-align:left;

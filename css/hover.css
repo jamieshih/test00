@@ -1630,7 +1630,7 @@
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
-  background: #2098D1;
+  background: #65d4d3;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1644,7 +1644,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #e1e1e1;
+  background: #4bb4b3;
   border-radius: 100%;
   -webkit-transform: scale(2);
   transform: scale(2);
