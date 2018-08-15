@@ -277,7 +277,7 @@ html, body {
 	text-align:left;
 	font-size:13px;
 	color:#494949;
-	line-height:30px;
+	line-height:28px;
 	letter-spacing:1px;
 }
 
@@ -458,7 +458,20 @@ html, body {
 }
 
 
+#footer{
+  width:100%;
+  height: auto;
+  margin: 0 auto;
+  display: block; 
+  background-color:#4eb6b5;	
+  padding:40px 0px;
+  text-align: center;
+}
 
+#footer p{
+	font-size:13px;
+	color:#FFF;
+}
 
 
 
