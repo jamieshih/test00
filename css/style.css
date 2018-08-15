@@ -565,8 +565,9 @@ html, body {
 
 
 #content_skills {
+  width:100%;
   height: auto;
-  padding:80px 0px;
+  padding:30px 0px;
   margin: 0 auto;
   clear:both;
   background-color:#FFF;
@@ -574,7 +575,7 @@ html, body {
 
 #content_skills h2{
 	color:#666;
-	font-size:18px;
+	font-size:14px;
 	line-height:26px;
 }
 
@@ -587,12 +588,12 @@ html, body {
 }
 #content_skills ul{ 
   overflow:hidden; 
-  margin-top:20px; 
+  margin-top:0px; 
 }
 
 #content_skills li{ 
   float:left; 
-  width:25%; 
+  width:50%; 
   text-align:center; 
   padding-bottom:5px;
   
@@ -601,16 +602,16 @@ html, body {
 #content_skills .pic{ 
   border-radius: 50%; 
   background-color:#4eb6b5; 
-  width: 130px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
   display:inline-block; 
 
 }
 
 #content_skills .fas{ 
   color:#fff; 
-  font-size:50px;
-  padding: 40px 0 0 0;
+  font-size:40px;
+  padding: 30px 0 0 0;
 }
 
 #content_skills strong{
@@ -626,8 +627,7 @@ html, body {
   color:#767676;
 }
 
-.inner{
-  max-width: 1100px;	
+.inner{	
   width:100%;
   height: auto;
   margin: 0 auto;
@@ -832,8 +832,8 @@ html, body {
     border: 1px dashed #4eb6b5;
     border-right: 1px dashed #4eb6b5;
     border-bottom: 1px dashed #4eb6b5;
-    height: 138px;
-    width: 138px;
+    height: 108px;
+    width: 108px;
     border-radius: 50%;
     -webkit-animation: loading 10s infinite linear;
     -moz-animation: loading 10s infinite linear;
