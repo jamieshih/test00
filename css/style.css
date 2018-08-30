@@ -160,11 +160,10 @@ html[xmlns] .clearfix {
 }
 
 #btn .btn_a a:hover img ,.btn_b a:hover img ,.btn_c a:hover img{
-	-webkit-filter: brightness(115%);
+	-webkit-filter: brightness(125%);
 	/* Firefox */ -webkit-transition:  0.3s; 
 	/* Safari and Chrome */ -o-transition:  0.3s; 
 	/* Opera */ transition:  0.3s;
-	margin-top:1px;
 }
 
 #btn .btn_b{
