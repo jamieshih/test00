@@ -57,23 +57,7 @@ html[xmlns] .clearfix {
 		/* Opera */ transition:  0.5s;		
 }
 
-.gototop{
-  width:50px;
-  height:50px;
-  line-height:50px;
-  font-family:verdana;
-  text-align:center;
-  background:#a00101;
-  color:#fff;
-  position:fixed;
-  bottom:20px;
-  right:40px;
-  border-radius:50%;
-  text-decoration:none;
-  cursor: pointer;
-  display:none;
-  font-size:13px;
-}
+.gototop{width: 50px;height: 50px;line-height: 50px;font-family: verdana;text-align: center;background: #a00101;color: #fff;position: fixed;bottom: 20px;right: 40px;border-radius: 50%;text-decoration: none;cursor: pointer;font-size: 13px;}
 
 /* --main 標題---------------------------------------------------------------------------- */
 
@@ -167,7 +151,7 @@ html[xmlns] .clearfix {
 #btn {
 	width: 1000px;
     margin: 0 auto;
-    margin-top: 72px;
+    margin-top: 82px;
 }
 
 #btn .btn_a{
@@ -320,10 +304,12 @@ html[xmlns] .clearfix {
 }
 
 	 
+
+		 
 	 
 /*--------------------------------------tab頁籤---------------------------------------*/
 .tab_left{
-	width:680px;
+	width:685px;
 	height:800px;
 	float:left;
 	display: inline-block;
@@ -331,7 +317,7 @@ html[xmlns] .clearfix {
 
 .tab_left li{
 	float:left;
-	margin:30px 42px 0 0;
+	margin:30px 15px 0 20px;
 	border:1px solid #000;
 }
 
@@ -374,7 +360,7 @@ html[xmlns] .clearfix {
 }
 
 .tab_right{
-	width:295px;
+	width:280px;
 	height:800px;
 	float:left;
 	display: inline-block;
@@ -406,27 +392,26 @@ html[xmlns] .clearfix {
 	margin:0 auto;
 }
 
-
 .abgne_tab {
 	width:1000px;
 	height: 99px;
 	margin:0 auto;		
 }
-ul.tabs {
+.tabs {
 	width:1000px;
 	height: 99px;
 	margin:0 auto;
 	background-image:url(../images/nav.jpg);
 }
 	
-ul.tabs .condom:hover{
+.tabs .condom:hover{
 	-webkit-filter: brightness(115%);
 	/* Firefox */ -webkit-transition:  0.5s; 
 	/* Safari and Chrome */ -o-transition:  0.5s; 
 	/* Opera */ transition:  0.5s;			
 }		
 	
-ul.tabs li {
+.tabs li {
 	/*float: left;*/
 	width:200px;
 	height: 99px;
@@ -439,17 +424,20 @@ ul.tabs li {
 	float:left;
 }
 	
-ul.tabs li a {
+.tabs li a {
 	width:200px;
 	height: 99px;	
 	display: block;
 	text-decoration: none;
 }
 	
-ul.tabs li a:hover {	
-	background-image: url(../images/tab_active.png);		
+.tabs li a:hover {	
+	background-image: url(../images/tab_active.png);
+	/* Firefox */ -webkit-transition:  0.5s; 
+	/* Safari and Chrome */ -o-transition:  0.5s; 
+	/* Opera */ transition:  0.5s;				
 }
-ul.tabs li.active  {
+.tabs li.active {
 	width:200px;
 	height: 99px;			
 	background-image: url(../images/tab_active.png);
@@ -457,9 +445,9 @@ ul.tabs li.active  {
 	/* Safari and Chrome */ -o-transition:  0.5s; 
 	/* Opera */ transition:  0.5s;			
 }
-ul.tabs li.active a:hover {
+.tabs li.active a:hover {
 	-webkit-filter: brightness(115%);
-	background-image: url(../images/tab_active.png;
+	background-image: url(../images/tab_active.png);
 	/* Firefox */ -webkit-transition:  0.5s; 
 	/* Safari and Chrome */ -o-transition:  0.5s; 
 	/* Opera */ transition:  0.5s;			
@@ -467,21 +455,21 @@ ul.tabs li.active a:hover {
 
 .tab_container {
 	width: 1000px;
-	height:800px;
+	height:890px;
 	/*border: 1px solid #999;*/
 	border-top: none;
-	background: #fff;
 	margin:0 auto;
 	float:left;
 }
 
 			
-div.tab_container .tab_content li:hover {
+.tab_container .tab_content li:hover {
 	opacity:0.85;
 }		
-
-
+ 
+ 
 @media screen and (min-width: 768px) and (max-width: 1024px) { 
-    .top_btn { display: none;}
-	.gototop{display: none; }
-}		 
+.gototop{
+	display:none;
+}
+}	 
