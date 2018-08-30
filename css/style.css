@@ -21,7 +21,7 @@ body{
 	background-repeat:no-repeat;
 	background-position:top center;
 	background-attachment: scroll;
-	background-color:#dcf0fd;
+	background-color:#1e2022;
 	margin: 0;
 	}
 
@@ -34,7 +34,6 @@ ol,ul,li{
 
 .clearfix::after {
     clear: both;
-
     display: block;
     height: 0;
     visibility: hidden;
@@ -49,16 +48,32 @@ html[xmlns] .clearfix {
 
 /* --TAB按鈕------------------------------------- */
 
-.top_btn{position: fixed;right:30px;top: 50px;width: 166px;height:352px;background: url(../images/tab_bg.png) no-repeat;margin: 0 auto;z-index: 99; padding-top:40px; padding-bottom:20px;}
-.top_btn img { margin-left:20px; }
+.top_btn{position: fixed;right:20px;top:20px;width: 80px;height:80px;/*background: url(../images/tab_bg.png) no-repeat;*/margin: 0 auto;z-index: 99; padding-top:40px; padding-bottom:20px;}
+.top_btn img { margin-bottom:20px; }
 .top_btn a:hover img{
-		-webkit-filter: brightness(120%);
+		-webkit-filter: brightness(125%);
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
 		/* Opera */ transition:  0.5s;		
 }
 
-
+.gototop{
+  width:50px;
+  height:50px;
+  line-height:50px;
+  font-family:verdana;
+  text-align:center;
+  background:#a00101;
+  color:#fff;
+  position:fixed;
+  bottom:20px;
+  right:40px;
+  border-radius:50%;
+  text-decoration:none;
+  cursor: pointer;
+  display:none;
+  font-size:13px;
+}
 
 /* --main 標題---------------------------------------------------------------------------- */
 
@@ -150,10 +165,9 @@ html[xmlns] .clearfix {
 
 
 #btn {
-    width: 1000px;
-    height: 175px;
+	width: 1000px;
     margin: 0 auto;
-	margin-top:25px;
+    margin-top: 72px;
 }
 
 #btn .btn_a{
@@ -162,7 +176,7 @@ html[xmlns] .clearfix {
 }
 
 #btn .btn_a a:hover img ,.btn_b a:hover img ,.btn_c a:hover img{
-	-webkit-filter: brightness(105%);
+	-webkit-filter: brightness(115%);
 	/* Firefox */ -webkit-transition:  0.3s; 
 	/* Safari and Chrome */ -o-transition:  0.3s; 
 	/* Opera */ transition:  0.3s;
@@ -185,9 +199,12 @@ html[xmlns] .clearfix {
 /* --footer---------------------------------------------------------------------------- */
 		
 #footer{
-		background-color:#141750;
+		background-color:#1e2022;
 		width:100%;
 		height:71px;
+		margin-top:50px;
+	    display: inline-block;
+		bottom:0;	
 		}
 
 #footer ul{
@@ -208,7 +225,7 @@ html[xmlns] .clearfix {
 	     }
 		 
 #footer li a.f01:hover {
-		background-color:#171c71;
+		background-color:#323436;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -216,14 +233,14 @@ html[xmlns] .clearfix {
 		 }
 		 
 #footer li a.f02 {
-		background:url(images/footer02.png) no-repeat;
+		background:url(../images/footer02.png) no-repeat;
 		width:250px;
 		height:71px;
 		display:block;
 	     }
 		 
 #footer li a.f02:hover {
-		background-color:#171c71;
+		background-color:#323436;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -231,14 +248,14 @@ html[xmlns] .clearfix {
 		 }
 
 #footer li a.f03 {
-		background:url(images/footer03.png) no-repeat;
+		background:url(../images/footer03.png) no-repeat;
 		width:250px;
 		height:71px;
 		display:block;
 	     }
 		 
 #footer li a.f03:hover {
-		background-color:#171c71;
+		background-color:#323436;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -246,14 +263,14 @@ html[xmlns] .clearfix {
 		 }
 		 
 #footer li a.f04 {
-		background:url(images/footer04.png) no-repeat;
+		background:url(../images/footer04.png) no-repeat;
 		width:250px;
 		height:71px;
 		display:block;
 	     }
 		 
 #footer li a.f04:hover {
-		background-color:#171c71;
+		background-color:#323436;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -261,14 +278,14 @@ html[xmlns] .clearfix {
 		 }
 		 
 #footer li a.f05 {
-		background:url(images/footer05.png) no-repeat;
+		background:url(../images/footer05.png) no-repeat;
 		width:250px;
 		height:71px;
 		display:block;
 	     }
 		 
 #footer li a.f05:hover {
-		background-color:#171c71;
+		background-color:#323436;
 		-moz-transition: opacity 0.5s; 
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
@@ -280,7 +297,7 @@ html[xmlns] .clearfix {
 
 #content{
 	width:1000px;
-	height:895px;
+	height:955px;
     margin:0 auto;
 	display: inline-block;
 	float:left;
@@ -293,7 +310,7 @@ html[xmlns] .clearfix {
 	width:1000px;
 	height:328px;
 	margin-bottom:10px;
-	display: inline-block;	
+	display: inline-block;
 }
 
 .content_b{
@@ -319,15 +336,16 @@ html[xmlns] .clearfix {
 }
 
 .tab_left li img:hover , .tab_right li img:hover{
-	opacity:0.8;
-    transition: all .3s ease-in-out;	
+	opacity:0.9;
+    transition: all .2s ease-in-out;
+    filter:drop-shadow(0px 0px 5px rgba(0,0,0,.5));		
 }
 .tab_left li span , .tab_right li span{
 	width:296px; 
 	height:44px; 
 	background:#000; 
-	opacity: 0.8; 
-	filter:Alpha(Opacity=80, Style=0);
+	opacity: 0.9; 
+	filter:Alpha(Opacity=90, Style=0);
 	margin-top:-44px;
 	z-index:99;
 	display:block;
@@ -340,10 +358,10 @@ html[xmlns] .clearfix {
 	position:absolute;
 }
 
-.tab_left li span:hover{
+.tab_left li span:hover{	
 	background:#000; 
-	opacity: 0.7; 
-	filter:Alpha(Opacity=70, Style=0);
+	opacity: 0.8; 
+	filter:Alpha(Opacity=80, Style=0);
 	/* Firefox */ -webkit-transition:  0.5s; 
 	/* Safari and Chrome */ -o-transition:  0.5s; 
 	/* Opera */ transition:  0.5s;		
@@ -370,8 +388,8 @@ html[xmlns] .clearfix {
 
 .tab_right li span:hover{
 	background:#000; 
-	opacity: 0.7; 
-	filter:Alpha(Opacity=70, Style=0);
+	opacity: 0.8; 
+	filter:Alpha(Opacity=80, Style=0);
 	/* Firefox */ -webkit-transition:  0.5s; 
 	/* Safari and Chrome */ -o-transition:  0.5s; 
 	/* Opera */ transition:  0.5s;		
@@ -465,4 +483,5 @@ div.tab_container .tab_content li:hover {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) { 
     .top_btn { display: none;}
+	.gototop{display: none; }
 }		 
