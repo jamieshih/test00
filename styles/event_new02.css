@@ -190,23 +190,6 @@ a:hover {
 .ProductList li.item_0 a , .ProductList li.item_1 a , .ProductList li.item_2 a {display: block; background-color:transparent; padding:10px 0px; }
 .ProductList li.item_0 a:hover , .ProductList li.item_1 a:hover , .ProductList li.item_2 a:hover { bbackground-color:transparent;}
 
-
-.ProductList li.item:nth-child(n+7) .BestMark{
-	display:none;
-
-}
-
-.BestMark {
-	width:100px;
-	height:100px;	
-	position: absolute;	
-	background-image:url(../images/hotsale_icon.png);	
-    background-repeat: no-repeat;	
-	z-index:99999;
-	float:right;
-}
-
-
 .ProductList li.item_2 { }
 .ProductList li:odd {}
 .ProductList li:even {}
@@ -1459,7 +1442,3 @@ header, footer{ display:none;}
 	display:none;
 }
 
-
-.BestMark {
-	display:none;
-}

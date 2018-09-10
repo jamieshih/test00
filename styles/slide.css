@@ -2,6 +2,7 @@
 /* CSS Document */
 
 /*右側點選列*/
+.main{ width:1000px; margin:0 auto; position:relative;}
 .main .slide{  top:0px; position:absolute; right:49px; }
 .main .slide ul{position:fixed; top:50px; width:120px; padding:50px;}
 .main .slide li{ }

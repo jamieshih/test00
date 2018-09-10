@@ -3,15 +3,15 @@
 
 * {margin:0px;padding:0px;}
 ul{ list-style:none; list-style-type:none;}
-body{ font-family:"Century Gothic", Arial, 'Microsoft JhengHei', "蘋果儷中黑", "儷黑 Pro", "新細明體", "sans-serif";}
+body{ }
 a, a:visited{ text-decoration:none;}
 img{ border:0px;}
 
-.header_b, .footer_b{ background:#ffffff; width:100%; margin:0 auto; text-align:center; min-width:1050px; clear:both;}	
+.header_b, .footer_b{ background:#ffffff; width:100%; margin:0 auto; text-align:center; min-width:1000px; clear:both;}	
 
 /*主視覺*/
 .top{
-	width: 1050px;
+	width: 1000px;
 	height:396px;
 	margin:0 auto;
 	display:block;	
@@ -23,7 +23,7 @@ img{ border:0px;}
 .time02{ width:476px; height:90px; position:absolute; left:19px; bottom:5px;}
 
 
-.fb{ width:1050px; height:85px; margin:0 auto 10px auto; border:#10507A solid; border-width:0px 0px; background:#4c67a1;}
+.fb{ width:1000px; height:85px; margin:0 auto 10px auto; border:#10007A solid; border-width:0px 0px; background:#4c67a1;}
 
 .break{ width:100%; height:70px; margin:0 auto; margin-bottom:0px; border:solid #000; border-width:2px 0px 5px 0px; text-align:center; background:#000000;}
 
@@ -33,7 +33,7 @@ img{ border:0px;}
 
 /*亮點商品區塊*/
 .bestprice { background:#ffffff;
-	width: 1050px;
+	width: 1000px;
 	margin: 0 auto;
 	padding-bottom: 15px; overflow:hidden;
 }
@@ -59,11 +59,11 @@ img{ border:0px;}
 
 	margin: 0 auto;
 }
-.bestprice h2{ width:1050px; height:75px;}
+.bestprice h2{ width:1000px; height:75px;}
 
 /*logo區塊*/
 .logowall { background:#ffffff;
-	width: 1050px;
+	width: 1000px;
 	margin: 0 auto 10px auto;
 	padding: 0 0 10px 0px; overflow:hidden;
 	
@@ -86,7 +86,7 @@ img{ border:0px;}
 	width:100%;
 	margin: 0 auto;
 }
-.logowall h5{ width:1050px; height:75px;}
+.logowall h5{ width:1000px; height:75px;}
 .tim{ display:block;}
 
 #topsale{
@@ -133,7 +133,7 @@ img{ border:0px;}
 
 /*logo區塊*/
 .logowall { background:#ffffff;
-	width: 1050px;
+	width: 1000px;
 	margin: 0 auto 10px auto;
 	padding: 0 0 10px 0px; overflow:hidden;
 	
@@ -155,7 +155,7 @@ img{ border:0px;}
 	width:100%;
 	margin: 0 auto;
 }
-.logowall h5{ width:1050px; height:75px;}
+.logowall h5{ width:1000px; height:75px;}
 .tim{ display:block;}
 
 
@@ -191,7 +191,7 @@ img{ border:0px;}
 .tag_wfe {
 	width: 20px;
 	height: 20px;
-	background: url(http:///www.payeasy.com.tw/pezlib/images/tag_wfe_s.png) left;
+	background: url(//www.payeasy.com.tw/pezlib/images/tag_wfe_s.png) left;
 	position: relative;
 	display: inline-block; background-repeat:no-repeat;
 	margin: 0 3px;
