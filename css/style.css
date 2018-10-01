@@ -109,7 +109,7 @@ body{background:url(../images/index_bg.jpg) no-repeat;background-repeat:no-repea
 #main .t8{
     position: absolute;
     top: 180px;
-    left: 710px;
+    right: 0px;
 }
 		
 #content{
@@ -353,12 +353,14 @@ to{transform:none}
 	
 /*---手機板---*/	
 		 
-@media screen and (min-width: 768px) and (max-width: 1024px) { 
+@media screen and (min-width: 768px) and (max-width: 1024px) { 	
+
     .top_btn { display: none;}
 	
 	.money{
 		display:none;
 	}
+	
 	#main .t2{
 		position: absolute;
 		top: 600px;
