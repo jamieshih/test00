@@ -363,17 +363,4 @@ to{transform:none}
 		display:none;
 	}
 	
-	#main .t2{
-		position: absolute;
-		top: 600px;
-		left: -40px;
-		box-sizing: border-box;
-		z-index: 999;	
-		}
-		
-	#main .t3{
-		position: absolute;
-		top: 600px;
-		left: 500px;
-	}		
 }		 
