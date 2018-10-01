@@ -358,8 +358,7 @@ to{transform:none}
     .top_btn { display: none;}
 	
 	.money{
-		display:none;
-	}
+		position:absolute;top:0;left:0px;z-index:0; display:none;}
 	
 	#main .t2{
 		position: absolute;
