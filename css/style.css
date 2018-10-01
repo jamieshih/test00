@@ -346,7 +346,7 @@ to{transform:none}
 97%{filter:brightness(160%)}
 100%{filter:brightness(100%)}
 }
-.money{position:absolute;top:0;left:-400px;z-index:0}
+.money{position:absolute;top:0;left:-400px;z-index:0; display:block;}
 	
 	
 	
