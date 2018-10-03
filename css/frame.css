@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav#mobile{
+	display:none;
+}
+
+@media screen and (max-width: 640px) {
+	
+nav#mobile {
+	display: block;
+}
+nav#mobile #navBtn {
+    width: 50px;
+    height: 50px;
+    background: url(../images/icon_50x50.png) no-repeat;
+    background-size: cover;
+    background-color: #DB596C;
+    /* border-radius: 50%; */
+    float: right;
+    margin: 0px;
+    /* z-index: 100; */
+    /*position: fixed;*/
+    right: 0;
+    margin: -20px 20px 0px 0;
+	
+}
+nav#mobile ul {
+	width: 40%;
+	height: 100vh;
+	background-color: rgba(219, 89, 108, 0.9);
+	margin-left: 0;
+	left: -100%;
+	position: fixed;
+	text-align: left;
+	overflow-y: auto;
+	font-size: 1.2em;
+	display: block;
+	top:0px;
+	padding-top:20px;
+	z-index:999;
+	
+}
+nav#mobile ul li {
+	border-bottom: solid 1px #ea95a3;
+	position: relative;	
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+nav#mobile ul li a {
+	color: #FFF;
+}
+nav#mobile ul li a:before {
+	content: "";
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	margin-left: -35px;
+}
+nav#mobile ul li.m5 a:before {
+	background: url(../images/icon65x65.png) no-repeat -145px;
+	background-size: cover;
+}
+nav#mobile ul li.m4 a:before {
+	background: url(../images/icon65x65.png) no-repeat -110px;
+	background-size: cover;
+}
+nav#mobile ul li.m3 a:before {
+	background: url(../images/icon65x65.png) no-repeat -75px;
+	background-size: cover;
+}
+nav#mobile ul li.m2 a:before {
+	background: url(../images/icon65x65.png) no-repeat -40px;
+	background-size: cover;
+}
+nav#mobile ul li.m12 a:before {
+	background: url(images/icon65x65.png) no-repeat -425px;
+	background-size: cover;
+}
+nav#mobile ul li.m11 a:before {
+	background: url(../images/icon65x65.png) no-repeat -390px;
+	background-size: cover;
+}
+nav#mobile ul li.m13 a:before {
+	background: url(../images/icon65x65.png) no-repeat -355px;
+	background-size: cover;
+}
