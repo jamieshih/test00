@@ -33,6 +33,10 @@ html[xmlns] .clearfix {
     display: block;
 }
 
+a{
+	transition: 0.5s all ease;
+	text-decoration:none;
+}
 /**/
 
 html, body {
@@ -134,13 +138,127 @@ html, body {
 
 @keyframes scroll{0%{top:8px}100%{top:15px}}
 
+
+.process{
+	background:url(../images/bg.jpg) no-repeat center top;
+	background-size: cover;
+	width:100%;
+	height:auto;
+	position:relative;
+}
+
+.title img{
+	display:block;	
+	width:1000px;
+	height:150px;
+	margin:0 auto;
+	padding:50px 0 20px 0;
+}
+
+.m_title img{
+	display:none;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	padding:50px 0;
+}
+
+.arrow01{
+	width:314px;
+	height:121px;
+	position:relative;
+	left:440px;
+	top:-200px;
+}
+
+.arrow02{
+    width: 43px;
+    height: 116px;
+    position: relative;
+    left: 880px;
+    top: -130px;
+}
+
+.arrow03{
+	width: 43px;
+    height: 116px;
+    position: relative;
+    left: 440px;
+    top: -380px;
+}
+
+
+.step01{
+	width:357px;
+	height:370px;
+	position:relative;
+	left:100px;
+	float:left;
+}
+
+.step02{
+	width:357px;
+	height:370px;
+	position:relative;
+	left:750px;
+	top:-370px;
+}
+
+.step03{
+	width:357px;
+	height:370px;
+	position:relative;
+	left:740px;
+	top:-160px;	
+}
+
+.step04{
+    width: 357px;
+    height: 370px;
+    position: relative;
+    left: 100px;
+    top: -650px;
+}
+
 #footer{
     background-color: #000;
-    height: 50px;
+    height: 100px;
     line-height: 50px;
     bottom: 0;
     width: 100%;
     z-index: 0;
+}
+
+
+#footer ul{
+	margin:0 auto;
+    text-align: center;
+}
+
+#footer li{
+	font-size:15px;
+	color:#FFF;		
+	display:inline-block;
+	margin:0 auto;
+	line-height:20px;
+	border-right: solid 1px #fff;
+	padding:0 50px;
+}
+
+#footer li:last-child{
+	border: 0px; 
+}
+
+#footer li a{
+	font-size:15px;
+	color:#FFF;
+	text-decoration:none;
+}
+
+#footer li a:hover{
+	font-size:15px;
+	color:#00afe1;
+	text-decoration:none;	
 }
 
 #footer p{
@@ -153,7 +271,7 @@ html, body {
 
 /* --手機版型------------------------------------- */
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 767px) {
 .content{
 	width:100%;
 	margin:0 auto;
@@ -175,3 +293,77 @@ html, body {
 .scroll{
 	display:none;
 }
+
+.title img{
+	display:none;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	padding:50px 0;
+}
+
+
+.m_title img{
+	display:block;
+	width:80%;
+	height:auto;
+	margin:0 auto;
+	padding:20px 0 0 0;
+}
+.arrow01,.arrow02 ,.arrow03 {
+	display:none;
+}
+
+.step01 img , .step02 img , .step03 img , .step04 img , .step05 img , .step06 img{
+	width:100%;	
+}
+
+.step01{
+	width:50%;
+    height: auto;	
+	left:0;
+	top:0;
+	display:inline-block;
+}
+
+	
+.step02{
+	width:50%;	
+    height: auto;	
+	left:0;
+	top:0;	
+	display:inline-block;	
+}
+
+.step03{
+	width:50%;	
+    height: auto;	
+	left:0;	
+	top:0;
+	display:inline-block;
+	float:left;
+}
+
+.step04{
+	width:50%;	
+    height: auto;	
+	left:0;
+	top:0;		
+	display:inline-block;	
+}
+
+
+
+
+
+#footer li{
+	font-size:15px;
+	color:#FFF;		
+	display:inline-block;
+	margin:0 auto;
+	line-height:20px;
+	border-right: solid 1px #fff;
+	padding:0 20px;
+}
+
+
