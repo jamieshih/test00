@@ -229,20 +229,20 @@ html, body {
 
 
 .title p {
-	padding:30px 0;
+	padding:10px 0;
 	margin:0;
 	text-align:center;
 	width:100%;	
 	display:block;
     font-weight: bold;
     color: #242d3c;
-    font-size: 40px;
-    letter-spacing: 0.1em;
+    font-size: 30px;
+    letter-spacing: 0em;
 }
 
 .title p::first-letter{
 	color:#f15424;
-	font-size:60px;	
+	font-size:50px;	
 }
 
 .pic{
@@ -265,12 +265,12 @@ html, body {
     float: left;
     font-weight: bold;
     background-color: #f7f7f7;
-    padding: 15px 0px 15px 50px;
+    padding: 10px 0px 10px 50px;
     margin: 0px;
     width: 87%;
     text-align: left;
 	font-color:#242d3c;
-	margin:10px 0 10px 0;	
+	margin:10px 0 5px 0;	
 }
 
 .word_b p{
@@ -281,12 +281,12 @@ html, body {
     float: left;
     font-weight: bold;
     background-color: #f7f7f7;
-    padding: 15px 0px 15px 50px;
+    padding: 10px 0px 10px 50px;
     margin: 0px;
     width: 87%;
     text-align: left;
 	font-color:#242d3c;
-	margin:10px 0 20px 0;	
+	margin:10px 0 10px 0;	
 }
 
 .btn{
