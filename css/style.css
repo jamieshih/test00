@@ -291,6 +291,7 @@ html, body {
 
 .btn{
 	width:100%;
+	margin:0 auto;
 	float:left;	
 }
 
@@ -304,8 +305,8 @@ html, body {
 
 .btn li a{
 	text-align:left;
-	padding: 8% 20%;
-    margin:0;
+	padding: 8% 28%;
+    margin:0 0 0 3%;
     line-height: 20px;
     display: inline-block;
     background-color: #f15424;
@@ -320,6 +321,7 @@ html, body {
 }
 
 .btn li img{
+	display:none;
 	float:left;
 	line-height:20px;
 }
