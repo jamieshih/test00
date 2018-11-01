@@ -82,7 +82,7 @@ html, body {
 	float:left;		
 }
 
-.title p {
+.content_01 .title p {
     font-weight: bold;
     color: #242d3c;
     font-size: 50px;
@@ -91,17 +91,17 @@ html, body {
     float: right;
 }
 
-.title p::first-letter{
+.content_01 .title p::first-letter{
 	color:#f15424;
 	font-size:70px;	
 }
 
-.pic{
+.content_01 .pic{
 	float:left;
-	padding:160px 0px 160px 50px;
+	padding:160px 0px 120px 50px;
 }
 
-.word_a p{
+.content_01 .word_a p{
 	background: url(../images/icon_ques.png) no-repeat left top;
     background-position: 20px 15px;
     line-height: 25px;
@@ -116,7 +116,7 @@ html, body {
 	font-color:#242d3c;
 }
 
-.word_b p{
+.content_01 .word_b p{
 	background: url(../images/icon_ans.png) no-repeat left top;
     background-position: 20px 15px;
     line-height: 25px;
@@ -131,15 +131,15 @@ html, body {
 	font-color:#242d3c;	
 }
 
-.btn{
+.content_01 .btn{
 	float:left;	
 }
 
-.btn li{
+.content_01 .btn li{
 	display:inline-block;	
 }
 
-.btn li a{
+.content_01 .btn li a{
 	padding: 15px 64px;
     margin: 30px 0px 0 29px;
     line-height: 20px;
@@ -151,15 +151,72 @@ html, body {
     line-height: 20px;
 }
 
-.btn li a:hover{
+.content_01 .btn li a:hover{
 	background-color:#c4181f;	
 }
 
-.btn li img{
+.content_01 .btn li img{
 	float:left;
 	line-height:20px;
 	padding-right: 15px;	
 }
+
+.content_02{
+	width:100%;
+	height:auto;
+	float:right;
+	background-color:#f0f0f0;
+}
+
+.content_02 .title p {
+    font-weight: bold;
+    color: #242d3c;
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    padding: 70px 200px 0 0;
+    float: left;
+}
+
+.content_02 .title p::first-letter{
+	color:#f15424;
+	font-size:70px;	
+}
+
+.content_02 .pic{
+	float:right;
+	padding:160px 0px 120px 50px;
+}
+
+.content_02 .word_a p{
+	background: url(../images/icon_ques.png) no-repeat left top;
+    background-position: 20px 15px;
+    line-height: 25px;
+    font-size: 16px;
+ 	float:right;
+    font-weight: bold;
+    background-color: #f7f7f7;
+    padding: 15px 30px 15px 60px;
+    margin: 30px 0px 0px 30px;
+    width: 450px;
+    text-align: left;
+	font-color:#242d3c;
+}
+
+.content_02 .word_b p{
+	background: url(../images/icon_ans.png) no-repeat left top;
+    background-position: 20px 15px;
+    line-height: 25px;
+    font-size: 16px;
+	float:right;
+    font-weight: bold;
+    background-color: #f7f7f7;
+    padding: 15px 30px 15px 60px;
+    margin: 30px 0px 0px 30px;
+    width: 450px;
+    text-align: left;
+	font-color:#242d3c;	
+}
+
 
 #footer{
     background-color: #000;
@@ -217,18 +274,25 @@ html, body {
 	background-size: cover;
     padding: 50px 0;	
 }
+
+.text img{
+	width:90%;
+}
+
 .content{
 	width:100%;
 	margin:0 auto;
 }
 
+
 .content_01{
 	width:100%;
-	margin:0 auto; 	
+	margin:0 auto;
+	margin-bottom:20px;
 }
 
 
-.title p {
+.content_01 .title p {
 	padding:10px 0;
 	margin:0;
 	text-align:center;
@@ -240,24 +304,24 @@ html, body {
     letter-spacing: 0em;
 }
 
-.title p::first-letter{
+.content_01 .title p::first-letter{
 	color:#f15424;
 	font-size:50px;	
 }
 
-.pic{
+.content_01 .pic{
 	width:100%;	
 	padding:0;	
 	margin:0 auto;	
 }
 
-.pic img{
+.content_01 .pic img{
 	width:50%;
 	padding:0;
 	margin:0 auto;
 }
 
-.word_a p{
+.content_01 .word_a p{
 	background: url(../images/icon_ques.png) no-repeat left top;
     background-position: 10px 15px;
     line-height: 25px;
@@ -273,7 +337,7 @@ html, body {
 	margin:10px 0 5px 0;	
 }
 
-.word_b p{
+.content_01 .word_b p{
 	background: url(../images/icon_ans.png) no-repeat left top;
     background-position: 10px 15px;
     line-height: 25px;
@@ -286,16 +350,16 @@ html, body {
     width: 87%;
     text-align: left;
 	font-color:#242d3c;
-	margin:10px 0 10px 0;	
+	margin:10px 0 12px 0;	
 }
 
-.btn{
+.content_01 .btn{
 	width:100%;
 	margin:0 auto;
 	float:left;	
 }
 
-.btn li{
+.content_01 .btn li{
 	width:50%;	
 	display:inline-block;
 	float:left;
@@ -303,7 +367,7 @@ html, body {
 	padding:0;	
 }
 
-.btn li a{
+.content_01 .btn li a{
 	text-align:left;
 	padding: 8% 28%;
     margin:0 0 0 3%;
@@ -316,17 +380,17 @@ html, body {
     line-height: 20px;
 }
 
-.btn li a:hover{
+.content_01 .btn li a:hover{
 	background-color:#c4181f;	
 }
 
-.btn li img{
+.content_01 .btn li img{
 	display:none;
 	float:left;
 	line-height:20px;
 }
 
-.text img{
+.content_01 .text img{
 	width:80%;
 	margin:0 auto;
 	padding:0;	
