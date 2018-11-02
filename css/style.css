@@ -615,7 +615,8 @@ html, body {
     font-size: 14px;
     float: left;
     font-weight: bold;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
+	border-bottom:1px dotted #e7e7e7;
     padding: 10px 0px 10px 46px;
     margin: 0px;
     width: 87%;
@@ -631,7 +632,7 @@ html, body {
     font-size: 14px;
     float: left;
     font-weight: bold;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
     padding: 10px 0px 10px 46px;
     margin: 0px;
     width: 87%;
@@ -702,7 +703,7 @@ html, body {
 	height:auto;
 	float:left;
 	padding-bottom:5%;
-	background-color:#e0e0e0;
+	background-color:#f0f0f0;
 }
 
 .content_02 .title p {
@@ -738,7 +739,8 @@ html, body {
     font-size: 14px;
     float: left;
     font-weight: bold;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
+	border-bottom:1px dotted #dadada;
     padding: 10px 0px 10px 46px;
     margin: 0px;
     width: 87%;
@@ -754,7 +756,7 @@ html, body {
     font-size: 14px;
     float: left;
     font-weight: bold;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
     padding: 10px 0px 10px 46px;
     margin: 0px;
     width: 87%;
@@ -806,7 +808,8 @@ html, body {
     font-size: 14px;
     float: left;
     font-weight: bold;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
+	border-bottom:1px dotted #e7e7e7;
     padding: 10px 0px 10px 46px;
     margin: 0px;
     width: 87%;
@@ -822,7 +825,7 @@ html, body {
     font-size: 14px;
     float: left;
     font-weight: bold;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
     padding: 10px 0px 10px 46px;
     margin: 0px;
     width: 87%;
@@ -837,7 +840,7 @@ html, body {
 	height:auto;
 	float:left;
 	padding-bottom:5%;
-	background-color:#e0e0e0;
+	background-color:#f0f0f0;
 }
 
 .content_04 .title p {
@@ -873,7 +876,8 @@ html, body {
     font-size: 14px;
     float: left;
     font-weight: bold;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
+	border-bottom:1px dotted #dadada;
     padding: 10px 0px 10px 46px;
     margin: 0px;
     width: 87%;
@@ -889,7 +893,7 @@ html, body {
     font-size: 14px;
     float: left;
     font-weight: bold;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
     padding: 10px 0px 10px 46px;
     margin: 0px;
     width: 87%;
