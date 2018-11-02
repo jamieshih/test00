@@ -103,6 +103,7 @@ html, body {
 
 .content_01 .word_a p{
 	background: url(../images/icon_ques.png) no-repeat left top;
+	background-size:5%;	
     background-position: 20px 15px;
     line-height: 25px;
     font-size: 16px;
@@ -118,6 +119,7 @@ html, body {
 
 .content_01 .word_b p{
 	background: url(../images/icon_ans.png) no-repeat left top;
+	background-size:5%;	
     background-position: 20px 15px;
     line-height: 25px;
     font-size: 16px;
@@ -323,6 +325,7 @@ html, body {
 
 .content_01 .word_a p{
 	background: url(../images/icon_ques.png) no-repeat left top;
+	background-size:6%;	
     background-position: 10px 15px;
     line-height: 25px;
     font-size: 15px;
@@ -339,6 +342,7 @@ html, body {
 
 .content_01 .word_b p{
 	background: url(../images/icon_ans.png) no-repeat left top;
+	background-size:6%;
     background-position: 10px 15px;
     line-height: 25px;
     font-size: 15px;
