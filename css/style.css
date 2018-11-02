@@ -933,7 +933,7 @@ html, body {
 
 .content_blue .pic img{
 	margin:0 auto;	
-	width:60%;
+	width:90%;
 }
 
 .content_blue .pic a{
@@ -967,7 +967,7 @@ html, body {
 .content_more .brand{
 	width:100%;
 	display:block;
-	margin:0 22px;
+	margin:0 0px;
 }
 
 .content_more .brand img{
@@ -978,19 +978,20 @@ html, body {
 
 
 .content_more .brand li a{
+	width:40%;	
 	float:left;
-	padding:0% 0%;
+	padding:1% 4%;
 	background-color:#FFF;
-	margin:10px 10px;
+	margin:1% 1%;;
 	box-shadow:2px 2px 15px 2px rgba(0%,0%,0%,0.1);	
 }
 .content_more .brand li a:hover{
 	filter: brightness(115%);
-	-webkit-transform:translateY(-3px);
-	-moz-transform:translateY(-3px);
-	-ms-transform:translateY(-3px);
-	-o-transform:translateY(-3px);
-	transform:translateY(-2px);
+	-webkit-transform:translateY(0px);
+	-moz-transform:translateY(0px);
+	-ms-transform:translateY(0px);
+	-o-transform:translateY(0px);
+	transform:translateY(0px);
 	box-shadow:2px 2px 15px 2px rgba(0%,0%,0%,0.2);		
 }
 
@@ -1027,7 +1028,7 @@ html, body {
 	float:left;
 	width:48%;
 	padding:3% 0;
-	margin:1% 1%;
+	margin:0% 0%;
 }
 
 .content_category li a img{
@@ -1037,11 +1038,11 @@ html, body {
 
 .content_category li a:hover{
 	-webkit-filter:brightness(110%);
-	-webkit-transform:translateY(-3px);
-	-moz-transform:translateY(-3px);
-	-ms-transform:translateY(-3px);
-	-o-transform:translateY(-3px);
-	transform:translateY(-2px);	
+	-webkit-transform:translateY(0px);
+	-moz-transform:translateY(0px);
+	-ms-transform:translateY(0px);
+	-o-transform:translateY(0px);
+	transform:translateY(0px);	
 }
 
 .content_category span{
