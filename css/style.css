@@ -587,7 +587,7 @@ html, body {
     color: #242d3c;
     font-size: 40px;
     letter-spacing: 0em;
-    padding: 10% 0 0 10%;
+    padding: 4% 0 0 10%;
     float: none;
 }
 
@@ -700,173 +700,202 @@ html, body {
 .content_02{
 	width:100%;
 	height:auto;
-	float:right;
-	background-color:#f0f0f0;
+	float:left;
+	padding-bottom:5%;
+	background-color:#e0e0e0;
 }
 
 .content_02 .title p {
-    font-weight: bold;
+	font-weight: bold;
     color: #242d3c;
-    font-size: 50px;
-    letter-spacing: 0.1em;
-    padding: 100px 0 0 200px;
-    float: left;
+    font-size: 40px;
+    letter-spacing: 0em;
+    padding: 8% 0 5% 10%;
+    float: none;
 }
 
 .content_02 .title p::first-letter{
 	color:#f15424;
-	font-size:70px;	
+	font-size:60px;	
 }
 
 .content_02 .pic{
-	float:right;
-	padding:160px 0px 120px 50px;
+	width:100%;	
+	padding:0;	
+	margin:0 auto;
+}
+
+.content_02 .pic img{
+	width:60%;
+	padding:0 0 5% 0;
+	margin:0 auto;
 }
 
 .content_02 .word_a p{
 	background: url(../images/icon_ques.png) no-repeat left top;
-    background-position: 20px 15px;
+    background-position: 10px 15px;
     line-height: 25px;
-    font-size: 16px;
- 	float:right;
+    font-size: 15px;
+    float: left;
     font-weight: bold;
     background-color: #f7f7f7;
-    padding: 15px 30px 15px 60px;
-    margin: 30px 0px 0px 30px;
-    width: 450px;
+    padding: 10px 0px 10px 50px;
+    margin: 0px;
+    width: 87%;
     text-align: left;
 	font-color:#242d3c;
+	margin:10px 0 5px 0;
 }
 
 .content_02 .word_b p{
 	background: url(../images/icon_ans.png) no-repeat left top;
-    background-position: 20px 15px;
+    background-position: 10px 15px;
     line-height: 25px;
-    font-size: 16px;
-	float:right;
+    font-size: 15px;
+    float: left;
     font-weight: bold;
     background-color: #f7f7f7;
-    padding: 15px 30px 15px 60px;
-    margin: 30px 0px 0px 30px;
-    width: 450px;
+    padding: 10px 0px 10px 50px;
+    margin: 0px;
+    width: 87%;
     text-align: left;
-	font-color:#242d3c;	
+	font-color:#242d3c;
+	margin:10px 0 12px 0;
 }
-
 
 
 /*-------------------------------------第三層-------------------------------------*/
 .content_03{
 	width:100%;
 	height:auto;
-	float:right;
+	float:left;
+	padding-bottom:5%;
 	background-color:#fff;
 }
 
 .content_03 .title p {
-    font-weight: bold;
+	font-weight: bold;
     color: #242d3c;
-    font-size: 50px;
-    letter-spacing: 0.1em;
-    padding: 100px 200px 0 0;
-    float: right;
+    font-size: 40px;
+    letter-spacing: 0em;
+    padding: 8% 0 5% 10%;
+    float: none;
 }
 
 .content_03 .title p::first-letter{
 	color:#f15424;
-	font-size:70px;	
+	font-size:60px;
 }
 
 .content_03 .pic{
-	float:left;
-	padding:160px 0px 120px 50px;
+	width:100%;	
+	padding:0;	
+	margin:0 auto;
+}
+
+.content_03 .pic img{
+	width:60%;
+	padding:0 0 5% 0;
+	margin:0 auto;
 }
 
 .content_03 .word_a p{
 	background: url(../images/icon_ques.png) no-repeat left top;
-    background-position: 20px 15px;
+    background-position: 10px 15px;
     line-height: 25px;
-    font-size: 16px;
-	float:left;
+    font-size: 15px;
+    float: left;
     font-weight: bold;
     background-color: #f7f7f7;
-    padding: 15px 30px 15px 60px;
-    margin: 30px 0px 0px 30px;
-    width: 450px;
+    padding: 10px 0px 10px 50px;
+    margin: 0px;
+    width: 87%;
     text-align: left;
 	font-color:#242d3c;
+	margin:10px 0 5px 0;
 }
 
 .content_03 .word_b p{
 	background: url(../images/icon_ans.png) no-repeat left top;
-    background-position: 20px 15px;
+    background-position: 10px 15px;
     line-height: 25px;
-    font-size: 16px;
-	float:left;
+    font-size: 15px;
+    float: left;
     font-weight: bold;
     background-color: #f7f7f7;
-    padding: 15px 30px 15px 60px;
-    margin: 30px 0px 0px 30px;
-    width: 450px;
+    padding: 10px 0px 10px 50px;
+    margin: 0px;
+    width: 87%;
     text-align: left;
-	font-color:#242d3c;	
+	font-color:#242d3c;
+	margin:10px 0 12px 0;	
 }
 
 /*-------------------------------------第四層-------------------------------------*/
 .content_04{
 	width:100%;
 	height:auto;
-	float:right;
-	background-color:#f0f0f0;
+	float:left;
+	padding-bottom:5%;
+	background-color:#e0e0e0;
 }
 
 .content_04 .title p {
-    font-weight: bold;
+	font-weight: bold;
     color: #242d3c;
-    font-size: 50px;
-    letter-spacing: 0.1em;
-    padding: 100px 0 0 200px;
-    float: left;
+    font-size: 40px;
+    letter-spacing: 0em;
+    padding: 8% 0 5% 10%;
+    float: none;
 }
 
 .content_04 .title p::first-letter{
 	color:#f15424;
-	font-size:70px;	
+	font-size:60px;
 }
 
 .content_04 .pic{
-	float:right;
-	padding:280px 0px 90px 50px;
+	width:100%;	
+	padding:0;	
+	margin:0 auto;
+}
+
+.content_04 .pic img{
+	width:60%;
+	padding:0 0 5% 0;
+	margin:0 auto;
 }
 
 .content_04 .word_a p{
 	background: url(../images/icon_ques.png) no-repeat left top;
-    background-position: 20px 15px;
+    background-position: 10px 15px;
     line-height: 25px;
-    font-size: 16px;
- 	float:right;
+    font-size: 15px;
+    float: left;
     font-weight: bold;
     background-color: #f7f7f7;
-    padding: 15px 30px 15px 60px;
-    margin: 30px 0px 0px 30px;
-    width: 450px;
+    padding: 10px 0px 10px 50px;
+    margin: 0px;
+    width: 87%;
     text-align: left;
 	font-color:#242d3c;
+	margin:10px 0 5px 0;
 }
 
 .content_04 .word_b p{
 	background: url(../images/icon_ans.png) no-repeat left top;
-    background-position: 20px 15px;
+    background-position: 10px 15px;
     line-height: 25px;
-    font-size: 16px;
-	float:right;
+    font-size: 15px;
+    float: left;
     font-weight: bold;
     background-color: #f7f7f7;
-    padding: 15px 30px 15px 60px;
-    margin: 30px 0px 0px 30px;
-    width: 450px;
+    padding: 10px 0px 10px 50px;
+    margin: 0px;
+    width: 87%;
     text-align: left;
-	font-color:#242d3c;	
+	font-color:#242d3c;
+	margin:10px 0 12px 0;	
 }
 
 .content_04 .word_b span{
