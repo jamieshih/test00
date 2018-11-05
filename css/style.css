@@ -346,6 +346,7 @@ html, body {
 .content_blue{
 	background-color:#242d3c;
 	padding:20px 0;
+	margin-bottom:-20px;
 }
 
 .content_blue .title{
@@ -428,7 +429,7 @@ html, body {
 	text-align:center;
 	font-weight:bold;
 	line-height:36px;
-	padding:90px 0 60px 0;
+	padding:70px 0 60px 0;
 }
 
 .content_category .brand{
