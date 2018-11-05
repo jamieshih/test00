@@ -611,7 +611,7 @@ html, body {
 .content_01 .word_a p{
 	background: url(../images/icon_ques.png) no-repeat left top;
     background-position: 10px 15px;
-    line-height: 25px;
+    line-height: 22px;
     font-size: 14px;
     float: left;
     font-weight: bold;
@@ -628,7 +628,7 @@ html, body {
 .content_01 .word_b p{
 	background: url(../images/icon_ans.png) no-repeat left top;
     background-position: 10px 15px;
-    line-height: 25px;
+    line-height: 22px;
     font-size: 14px;
     float: left;
     font-weight: bold;
@@ -735,7 +735,7 @@ html, body {
 .content_02 .word_a p{
 	background: url(../images/icon_ques.png) no-repeat left top;
     background-position: 10px 15px;
-    line-height: 25px;
+    line-height: 22px;
     font-size: 14px;
     float: left;
     font-weight: bold;
@@ -752,7 +752,7 @@ html, body {
 .content_02 .word_b p{
 	background: url(../images/icon_ans.png) no-repeat left top;
     background-position: 10px 15px;
-    line-height: 25px;
+    line-height: 22px;
     font-size: 14px;
     float: left;
     font-weight: bold;
@@ -804,7 +804,7 @@ html, body {
 .content_03 .word_a p{
 	background: url(../images/icon_ques.png) no-repeat left top;
     background-position: 10px 15px;
-    line-height: 25px;
+    line-height: 22px;
     font-size: 14px;
     float: left;
     font-weight: bold;
@@ -821,7 +821,7 @@ html, body {
 .content_03 .word_b p{
 	background: url(../images/icon_ans.png) no-repeat left top;
     background-position: 10px 15px;
-    line-height: 25px;
+    line-height: 22px;
     font-size: 14px;
     float: left;
     font-weight: bold;
@@ -872,7 +872,7 @@ html, body {
 .content_04 .word_a p{
 	background: url(../images/icon_ques.png) no-repeat left top;
     background-position: 10px 15px;
-    line-height: 25px;
+    line-height: 22px;
     font-size: 14px;
     float: left;
     font-weight: bold;
@@ -889,7 +889,7 @@ html, body {
 .content_04 .word_b p{
 	background: url(../images/icon_ans.png) no-repeat left top;
     background-position: 10px 15px;
-    line-height: 25px;
+    line-height: 22px;
     font-size: 14px;
     float: left;
     font-weight: bold;
@@ -1000,7 +1000,7 @@ html, body {
 .content_category{
 	background-color:#fff;
 	margin:0 auto;
-	padding:20px 0 350px 0;
+	padding:20px 0 300px 0;
 }
 
 .content_category .title{
@@ -1027,7 +1027,7 @@ html, body {
 .content_category li a{
 	float:left;
 	width:48%;
-	padding:3% 0;
+	padding:3% 1%;
 	margin:0% 0%;
 }
 
@@ -1085,27 +1085,32 @@ html, body {
     bottom: 0;
     width: 100%;
     z-index: 0;
+	margin:0 auto;	
 }
 
 
 #footer ul{
 	margin:0 auto;
-    text-align: center;
+    text-align: left;
+	width:100%;
 }
 
-#footer li{	
+#footer li{
+	width:30%;	
 	display:inline-block;
 	margin:0 auto;
 	line-height:20px;
 	/*border-right: solid 1px #fff;*/
-	margin:30px 50px;
+	margin:20px 0 10px 0;
+	text-align:center;		
 }
 
 #footer li img{
+	width:20%;
     display: inline-block;
     vertical-align: middle;
-    padding-right: 20px;
-	padding-bottom:10px;
+    padding-right: 5px;
+	padding-bottom:3px;
 }
 /*
 #footer li:last-child{
@@ -1113,9 +1118,9 @@ html, body {
 }*/
 
 #footer li a{
-	font-size:22px;
+	font-size:17px;
 	color:#FFF;	
-	text-decoration:none;	
+	text-decoration:none;
 }
 
 #footer li a:hover{
@@ -1127,5 +1132,4 @@ html, body {
 	color:#FFF;
     text-align: center;	
 }
-
 
