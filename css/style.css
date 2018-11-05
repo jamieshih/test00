@@ -832,7 +832,7 @@ html, body {
     width: 87%;
     text-align: left;
 	font-color:#242d3c;
-	margin:10px 0 12px 0;	
+	margin:10px 0 12px 0;		
 }
 
 /*-------------------------------------第四層-------------------------------------*/
@@ -905,7 +905,7 @@ html, body {
 
 .content_04 .word_b span{
     font-size: 14px;	
-	padding:15px 0;
+	padding:15px 10px 0 0;
 	display: inline-block;
 }
 
