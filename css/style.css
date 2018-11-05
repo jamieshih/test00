@@ -34,8 +34,8 @@ html[xmlns] .clearfix {
     display: block;
 }
 
-a{
-	transition: 0.3s all ease;
+a{ 
+	transition: 0.5s all ease;
 	text-decoration:none;
 }
 /**/
@@ -646,7 +646,7 @@ html, body {
 .content_01 .btn{
 	width:100%;
 	margin:0 auto;
-	float:left;	
+    text-align: center;
 }
 
 .content_01 .btn li{
@@ -953,7 +953,8 @@ html, body {
 
 .content_more{
 	background-color:#f0f0f0;
-	padding:10px 0 350px 0;
+	padding:10px 0 30px 0;
+	overflow:hidden;
 }
 
 .content_more .title{
