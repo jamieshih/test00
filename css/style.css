@@ -303,7 +303,7 @@ html, body {
 
 .content_04 .pic{
 	float:right;
-	padding:280px 0px 90px 50px;
+	padding:280px 0px 150px 50px;
 }
 
 .content_04 .word_a p{
@@ -916,7 +916,7 @@ html, body {
 }
 
 .content_blue .title{
-	font-size:25px;
+	font-size:27px;
 	color:#FFF;
 	text-align:center;
 	font-weight:bold;
@@ -953,11 +953,11 @@ html, body {
 
 .content_more{
 	background-color:#f0f0f0;
-	padding:10px 0 320px 0;
+	padding:10px 0 350px 0;
 }
 
 .content_more .title{
-	font-size:25px;
+	font-size:27px;
 	color:#242d3c;
 	text-align:center;
 	font-weight:bold;
@@ -1100,7 +1100,7 @@ html, body {
 	width:30%;	
 	display:inline-block;
 	margin:0 auto;
-	line-height:20px;
+	line-height:40px;
 	/*border-right: solid 1px #fff;*/
 	margin:20px 0 10px 0;
 	text-align:center;		
