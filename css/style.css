@@ -587,7 +587,7 @@ html, body {
     color: #242d3c;
     font-size: 40px;
     letter-spacing: 0em;
-    padding: 4% 0 0 10%;
+    padding: 4% 0 0 6%;
     float: none;
 }
 
@@ -660,7 +660,7 @@ html, body {
 
 .content_01 .btn li a{
 	text-align:left;
-	padding: 8% 28% 8% 28%;
+	padding: 8% 27% 8% 27%;
     margin:0 0 0 4%;
     line-height: 20px;
     display: inline-block;
@@ -711,7 +711,7 @@ html, body {
     color: #242d3c;
     font-size: 40px;
     letter-spacing: 0em;
-    padding: 8% 0 5% 10%;
+    padding: 4% 0 7% 6%;
     float: none;
 }
 
@@ -780,7 +780,7 @@ html, body {
     color: #242d3c;
     font-size: 40px;
     letter-spacing: 0em;
-    padding: 8% 0 5% 10%;
+    padding: 4% 0 7% 6%;
     float: none;
 }
 
@@ -848,7 +848,7 @@ html, body {
     color: #242d3c;
     font-size: 40px;
     letter-spacing: 0em;
-    padding: 8% 0 5% 10%;
+    padding: 4% 0 7% 6%;
     float: none;
 }
 
@@ -915,7 +915,7 @@ html, body {
 }
 
 .content_blue .title{
-	font-size:28px;
+	font-size:25px;
 	color:#FFF;
 	text-align:center;
 	font-weight:bold;
@@ -952,11 +952,11 @@ html, body {
 
 .content_more{
 	background-color:#f0f0f0;
-	padding:10px 0 350px 0;
+	padding:10px 0 320px 0;
 }
 
 .content_more .title{
-	font-size:28px;
+	font-size:25px;
 	color:#242d3c;
 	text-align:center;
 	font-weight:bold;
@@ -1000,16 +1000,16 @@ html, body {
 .content_category{
 	background-color:#fff;
 	margin:0 auto;
-	padding:20px 0 300px 0;
+	padding:10px 0 300px 0;
 }
 
 .content_category .title{
-	font-size:28px;
+	font-size:25px;
 	color:#242d3c;
 	text-align:center;
 	font-weight:bold;
 	line-height:36px;
-	padding:30px 30px 30px 30px;
+	padding:20px 30px 30px 30px;
 }
 
 .content_category .brand{
@@ -1091,7 +1091,7 @@ html, body {
 
 #footer ul{
 	margin:0 auto;
-    text-align: left;
+    text-align: center;
 	width:100%;
 }
 
