@@ -611,7 +611,7 @@ html, body {
 .content_01 .word_a p{
 	background: url(../images/icon_ques.png) no-repeat left top;
     background-position: 10px 15px;
-    line-height: 22px;
+    line-height: 28px;
     font-size: 14px;
     float: left;
     font-weight: bold;
@@ -735,7 +735,7 @@ html, body {
 .content_02 .word_a p{
 	background: url(../images/icon_ques.png) no-repeat left top;
     background-position: 10px 15px;
-    line-height: 22px;
+    line-height: 28px;
     font-size: 14px;
     float: left;
     font-weight: bold;
