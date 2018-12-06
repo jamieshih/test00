@@ -63,14 +63,12 @@ body{background:url(../images/index_bg.jpg) no-repeat;background-repeat:no-repea
     left: 0px;
     box-sizing: border-box;
     z-index: 999;
-	overflow:hidden;
 	}
 	
 #main .t3{
 	position: absolute;
     top: 500px;
-    left: 540px;
-	overflow:hidden;	
+    left: 540px;	
 }	
 
 #main .t2 img:hover{
