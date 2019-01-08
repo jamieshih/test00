@@ -14,8 +14,10 @@ body{background:url(../images/index_bg.jpg) no-repeat;background-repeat:no-repea
 
 /* --TAB按鈕------------------------------------- */
 
-.top_btn{position: fixed;right:20px;top: 20px;width: 150px;height:300px;background: url(../images/tab_bg.png) no-repeat;margin: 0 auto;z-index: 99; padding-top: 12px;; padding-bottom:20px; text-align:center;font-weight:bold;}
-.top_btn img { margin-left:37px; }
+.top_btn{position: fixed;right:20px;top: 20px;width: 150px;height:300px;background: url(../images/tab_bg.png) no-repeat;margin: 0 auto;z-index: 99; padding-top: 30px;; padding-bottom:20px; text-align:center;font-weight:bold;}
+.top_btn img {
+    margin-left: 37px;
+    margin-top: 10px;}
 .top_btn ul { width:115px; margin:0 auto; }
 .top_btn li a{ font-family: Microsoft JhengHei; font-size:15px; color:#fff; text-decoration:none; line-height:43px;  letter-spacing:-0.5px;}
 .top_btn li a:hover { color:#fffbbf; 		
@@ -95,7 +97,7 @@ body{background:url(../images/index_bg.jpg) no-repeat;background-repeat:no-repea
 	height: 950px;
 	background: url(../images/kv_bg.jpg) no-repeat;
 	position: relative;	
-	}
+}
 
 #main .logo{
 	padding-left: 60px;
@@ -221,7 +223,7 @@ body{background:url(../images/index_bg.jpg) no-repeat;background-repeat:no-repea
 	display:block;
 	position:relative;
 	margin:0 auto;
-	margin-bottom:20px;
+	margin-bottom:10px;
 }
 
 .more{
@@ -301,7 +303,7 @@ body{background:url(../images/index_bg.jpg) no-repeat;background-repeat:no-repea
 	width: 1200px;
     height: 60px;
     margin: 0 auto;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
     clear: both;
 }
 
@@ -490,11 +492,25 @@ to{transform:none}
 
 	body{ width:1200px; background:url(../images/m_bg.jpg) no-repeat;background-repeat:repeat;background-attachment:scroll; background-size: cover;}
 
+
+	#main .bg{
+		width:1200px;
+		height: 950px;
+		background: url(../images/kvm_bg.jpg) no-repeat;
+		position: relative;	
+	}
+
     .top_btn { display: none;}
 	
 	.money{
 		display:none;
 	}
 	
-
+	#btn{
+		width: 1200px;
+		height: 50px;
+		margin: 0 auto;
+		padding-bottom: 100px;
+		clear: both;
+	}
 }
