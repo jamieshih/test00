@@ -14,13 +14,11 @@ body{background:url(../images/index_bg.jpg) no-repeat;background-repeat:no-repea
 
 /* --TAB按鈕------------------------------------- */
 
-.top_btn{position: fixed;right:20px;top: 20px;width: 150px;height:300px;background: url(../images/tab_bg.png) no-repeat;margin: 0 auto;z-index: 99; padding-top: 30px;; padding-bottom:20px; text-align:center;font-weight:bold;}
-.top_btn img {
-    margin-left: 37px;
-    margin-top: 10px;}
+.top_btn{position: fixed;right:0px;top: 20px;width: 123px;height:274px;background: url(../images/tab_bg.png) no-repeat;margin: 0 auto;z-index: 99; padding-top:6px;; padding-bottom:20px; text-align:center;font-weight:bold;}
+.top_btn img { margin-left:34px; margin-top:10px;}
 .top_btn ul { width:115px; margin:0 auto; }
-.top_btn li a{ font-family: Microsoft JhengHei; font-size:15px; color:#fff; text-decoration:none; line-height:43px;  letter-spacing:-0.5px;}
-.top_btn li a:hover { color:#fffbbf; 		
+.top_btn li a{ font-family: Microsoft JhengHei; font-size:15px; color:#fff; text-decoration:none; line-height:43px;  letter-spacing:-0.5px; }
+.top_btn li a:hover { color:#ffff00; 		
 		/* Firefox */ -webkit-transition:  0.5s; 
 		/* Safari and Chrome */ -o-transition:  0.5s; 
 		/* Opera */ transition:  0.5s;	
@@ -35,37 +33,14 @@ body{background:url(../images/index_bg.jpg) no-repeat;background-repeat:no-repea
 /*more*/
 
 .more_1 a{
-	position: absolute;
-	margin-top:450px;
-	margin-left:220px;
-	z-index:99;
-}
-
-.more_2 a{
-	position: absolute;
-	margin-top:450px;
-	margin-left:160px;
-	z-index:99;
-}
-
-.movie a{
     position: absolute;
-    margin-top: 235px;
-    z-index: 100;
-    margin-left: 690px;
+	margin-top:470px;
+    margin-left:170px;
+	z-index:99;	
 }
 
 
-.movie a:hover{
-	filter: brightness(110%);
-	-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	-ms-transition: all 0.2s ease;
-	-o-transition: all 0.2s ease;
-	transition: all 0.2s ease;		
-}
-
-.more_1 a:hover , .more_2 a:hover{
+.more_1 a:hover{
 	filter: brightness(120%);
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
@@ -78,26 +53,24 @@ body{background:url(../images/index_bg.jpg) no-repeat;background-repeat:no-repea
 	-o-transform:translateY(-2px);
 	transform:translateY(-2px);
 }
-
 .left_pic{
     display: block;
     position: relative;
 	float:left;
 }
-
 /* --main 標題---------------------------------------------------------------------------- */
 
-#main{ width:1200px;
+#main{ width:1100px;
        margin:0 auto;
 	}
 	   
 
 #main .bg{
-	width:1200px;
-	height: 950px;
+	width:1100px;
+	height: 942px;
 	background: url(../images/kv_bg.jpg) no-repeat;
 	position: relative;	
-}
+	}
 
 #main .logo{
 	padding-left: 60px;
@@ -106,82 +79,146 @@ body{background:url(../images/index_bg.jpg) no-repeat;background-repeat:no-repea
 	}
 
 #main .t1{
-    position: absolute;
-    top: 90px;
-    left: 75px;
+	position: absolute;
+    top: 100px;
+    left: 185px;
     z-index: 1;
 	}
 
 #main .t2{
     position: absolute;
-    top: 530px;
-    left: 60px;
-    box-sizing: border-box;
-	}
+    top: 270px;
+    left: 190px;	
+}
+	
 	
 #main .t3{
-	position: absolute;
-    top: 510px;
-    left: 270px;	
-    z-index: 9;
-	animation: envelope 0.4s linear infinite alternate;		
-}	
+    position: absolute;
+    top: 620px;
+	margin-left:190px;
+}
 
+	
 #main .t4{
-	position: absolute;
-    top: 750px;
-    left: 275px;	
-    z-index: 99;
+    position: absolute;
+    top: 765px;
+	margin-left:435px;
+	z-index:888;
+}
+
+
+#main .pic01{
+	position:absolute;
+	top:120px;
+	margin-left:0px;
+}
+
+#main .pic02{
+	position:absolute;
+	top:100px;
+	right:-30px;
+}
+
+#main .pic03{
+	position:absolute;
+	top:790px;
+	right:50px;
+}
+
+#main .pic04{
+	position:absolute;
+	top:800px;
+	left:150px;
+}
+
+.cont_top{
+	width:1100px;
+	height:1230px;
+	background-image:url(../images/content_bg.png);
+}
+
+
+.cont_top .first {
+	width:960px;
+	margin:0 auto;
 }
 	
+.cont_top .first li{
+	width:475px;
+	float:left;
+	margin-top:200px;
+}		
+
+
+.cont_top .second {
+	width:960px;
+	margin:0 auto;
+}
 	
-#main .t5{
+.cont_top .second li{
+	width:320px;
+	float:left;
+	margin-top:20px;
+}		
+
+.cont_top .gogo{
+	position:absolute;
+	margin-left:170px;
+	margin-top:-100px;
+}
+
+.cont_top .gogo2{
+	position:absolute;
+	margin-left:95px;
+	margin-top:-100px;
+}
+
+
+#content{
+	width:1100px;
+    margin:0 auto;
+	clear:both;
+}
+
+
+.product{
+	display:block;
+	position:relative;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+
+.product img:hover{
+	-webkit-filter: brightness(110%);
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;		
+}
+
+.gogo img:hover , .gogo2 img:hover , .t4 img:hover {
+	-webkit-filter: brightness(110%);
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;		
+	-webkit-transform:translateY(-2px);
+	-moz-transform:translateY(-2px);
+	-ms-transform:translateY(-2px);
+	-o-transform:translateY(-2px);
+	transform:translateY(-2px);
+}
+
+.more{
     position: absolute;
-    top: 380px;
-    left: 200px;
-}
-	
-	
-#main .t6{
-    position: absolute;
-    top: 0px;
-    left: 78px;
+	z-index:9;
+	margin-top:-180px;
+	margin-left:440px;
 }
 
-#main .t7{
-    position: absolute;
-    top: 510px;
-    left: 320px;
-}
-
-#main .t8{
-    position: absolute;
-    top: 20px;
-    left: 820px;
-	animation: envelope 0.4s linear infinite alternate;	
-}
-
-#main .click{
-	position: absolute;
-    top: 540px;
-    left: 500px;	
-    z-index: 999;
-	transition: all 0.2s; 
-	animation: click 0.4s linear infinite alternate;	
-}
-
-#main .click:hover{
-	filter: brightness(1.1)
-}
-
-#main .kv_more{
-    position: absolute;
-    top: 855px;
-    left: 520px;
-	z-index:1000;
-}
-
-#main .kv_more:hover{
+.more img:hover{
 	-webkit-filter: brightness(115%);
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
@@ -195,94 +232,33 @@ body{background:url(../images/index_bg.jpg) no-repeat;background-repeat:no-repea
 	transform:translateY(-2px);
 }
 
-.cont_top{
-	width:1200px;
-	float:left;
-
-}
-
-.cont_top img{
-	float:left;
-}
-
-		
-#content{
-	width:1200px;
-    margin:0 auto;
-	clear:both;
-}
-
-
-.title {
-	margin:0 auto;
-	display:block;
-	width:1200px;
-}
-
-.product{
-	display:block;
-	position:relative;
-	margin:0 auto;
-	margin-bottom:10px;
-}
-
-.more{
-    position: absolute;
-    float: left;
-    top: 110px;
-    left: 150px;
-	z-index:9;	
-}
-
-.more img:hover ,.brand img:hover{
-	-webkit-filter: brightness(105%);
-	-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	-ms-transition: all 0.2s ease;
-	-o-transition: all 0.2s ease;
-	transition: all 0.2s ease;		
-	-webkit-transform:translateY(-2px);
-	-moz-transform:translateY(-2px);
-	-ms-transform:translateY(-2px);
-	-o-transform:translateY(-2px);
-	transform:translateY(-2px);
-}
-
-.brand{
-    position: absolute;
-    float: left;
-    top: 30px;
-    left: 110px;
-	z-index:8;		
-}
-
 .pro {
-	width:740px;
+	width:620px;
     position: absolute;
     float: left;
-    top: 30px;
-    left: 360px;
+    top: 160px;
+    left: 450px;
 	z-index:999;	
 }
-
 .pro img{
 	float:left;
-	padding:0 5px 0 0;	
-	cursor: pointer;
+	padding:0 5px 0 0;
+	/* Firefox */ -webkit-transition:  0.3s; 
+	/* Safari and Chrome */ -o-transition:  0.3s; 
+	/* Opera */ transition:  0.3s;	
 }
 
 .pro img:hover{
-	-webkit-filter: brightness(105%);
-	-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	-ms-transition: all 0.2s ease;
-	-o-transition: all 0.2s ease;
-	transition: all 0.2s ease;		
-	-webkit-transform:translateY(-2px);
-	-moz-transform:translateY(-2px);
-	-ms-transform:translateY(-2px);
-	-o-transform:translateY(-2px);
-	transform:translateY(-2px);
+	float:left;
+	-webkit-filter: brightness(100%);	
+	-webkit-transform:translateY(-3px); 
+	transform:translateY(-3px); 
+	/*box-shadow:0 2px 0 rgba(0,0,0,0.2);	*/
+  	-webkit-transform:scale(0.98);
+    -moz-transform:scale(0.98);
+    -ms-transform:scale(0.98);
+    -o-transform:scale(0.98);
+    transform:scale(0.98);	
 }
 
 
@@ -300,33 +276,34 @@ body{background:url(../images/index_bg.jpg) no-repeat;background-repeat:no-repea
 }	
 
 #btn{
-	width: 1200px;
-    height: 60px;
+    width: 1100px;
+    height: 100px;
     margin: 0 auto;
-    padding-bottom: 70px;
+	margin-top:20px;
+    padding-bottom: 75px;
     clear: both;
 }
 
 #btn .btn_a{
 	position:absolute;
-	margin-left:90px;
+	margin-left:70px;
 }
 
 
 #btn .btn_b{
 	position:absolute;
-	margin-left:350px;	
+	margin-left:310px;	
 }
 
 
 #btn .btn_c{
 	position:absolute;
-	margin-left:600px;	
+	margin-left:550px;	
 }
 
 #btn .btn_d{
 	position:absolute;
-	margin-left:860px;	
+	margin-left:790px;	
 }
 
 #btn .btn_a a:hover img ,.btn_b a:hover img ,.btn_c a:hover img ,.btn_d a:hover img{
@@ -435,16 +412,6 @@ body{background:url(../images/index_bg.jpg) no-repeat;background-repeat:no-repea
 		 
 /*------------Animation--------------*/	
 
-@keyframes envelope {
-0% { transform:translateY(0)}
-100% {transform:translateY(-2px)}
-}
-
-@keyframes click {
-0% { transform: scale(1); }
-100% {transform: scale(0.95);}
-}
-
 .move-action{animation-name:move-action;-webkit-animation-name:move-action;animation-duration:1.3s;-webkit-animation-duration:1.3s;animation-iteration-count:infinite;-webkit-animation-iteration-count:infinite}
 @keyframes move-action{0%{transform:translateY(0)}
 50%{transform:translateY(8px)}
@@ -469,36 +436,54 @@ to{transform:none}
 @-webkit-keyframes uptodown{0%{transform:translate(0,-10px)}
 100%{transform:translate(0,0)}
 }
-@keyframes uptodown{0%{transform:translate(0,-10px)}
+@keyframes uptodown{0%{transform:translate(0px,-15px)}
 100%{transform:translate(0,0)}
 }
 
-.brightness-play{-webkit-animation:brightness2-play 3s -.14s linear infinite;animation:brightness2-play 3s -.14s linear infinite}
+.brightness-play{-webkit-animation:brightness2-play 3s -.20s linear infinite;animation:brightness2-play 3s -.20s linear infinite}
 @keyframes brightness2-play{0%{filter:brightness(100%)}
 88%{filter:brightness(100%)}
-91%{filter:brightness(130%)}
+91%{filter:brightness(200%)}
 94%{filter:brightness(100%)}
-97%{filter:brightness(130%)}
+97%{filter:brightness(200%)}
 100%{filter:brightness(100%)}
 }
-.money{position:absolute;top:0;left:-300px;z-index:0; display:block;}
+.money{position:absolute;top:0;left:140px;z-index:10; display:block;}
 	
+.airplane{animation:airplane;animation-iteration-count:infinite;animation-duration:1s;webkit-animation-duration:1s}
+
+@keyframes airplane {
+0%{transform:translate(0,1px)}
+40%{transform:translate(0,0px)}
+60%{transform:translate(-0.5px,2px)}
+80%{transform:translate(0,0px)}
+100%{transform:translate(0,1px)}
+}	
 	
+.airplane2{animation:airplane2;animation-iteration-count:infinite;animation-duration:1s;webkit-animation-duration:1s}
+
+@keyframes airplane2 {
+0%{transform:translate(0,1px)}
+40%{transform:translate(0,0px)}
+60%{transform:translate(0.5px,1px)}
+80%{transform:translate(1px,0.5px)}
+100%{transform:translate(0,1px)}
+}	
 	
-	
+.ship{animation:ship;animation-iteration-count:infinite;animation-duration:3s;webkit-animation-duration:3s}
+
+@keyframes ship {
+0%{transform:translate(1px,0px)}
+40%{transform:translate(0,0px)}
+60%{transform:translate(1px,0px)}
+80%{transform:translate(0,0px)}
+100%{transform:translate(1px,0px)}
+}		
 /*---手機板---*/	
 		 
 @media screen and (min-width: 768px) and (max-width: 1024px) { 	
 
-	body{ width:1200px; background:url(../images/m_bg.jpg) no-repeat;background-repeat:repeat;background-attachment:scroll; background-size: cover;}
-
-
-	#main .bg{
-		width:1200px;
-		height: 950px;
-		background: url(../images/kvm_bg.jpg) no-repeat;
-		position: relative;	
-	}
+	body{ width:1100px; background:url(../images/index_bg.jpg) no-repeat;background-repeat:no-repeat;background-position:top center;background-attachment:scroll;background-color:#fff;margin:0}
 
     .top_btn { display: none;}
 	
@@ -506,11 +491,4 @@ to{transform:none}
 		display:none;
 	}
 	
-	#btn{
-		width: 1200px;
-		height: 50px;
-		margin: 0 auto;
-		padding-bottom: 100px;
-		clear: both;
-	}
 }
