@@ -334,6 +334,6 @@ to{transform:none}
 @media screen and (min-width: 768px) and (max-width: 1024px) { 
 .gototop{display:none}
 #main{width:112%;}
-#footer{width:125%;}
+#footer{width:112%;}
 .top_btn { display: none;}	
 }	 
