@@ -262,15 +262,15 @@ html[xmlns] .clearfix{display:block}
 #footer ul{width:1100px;height:71px;margin:0 auto}
 #footer li{float:left}
 #footer li a.f01{background:url(../images/footer01.png) no-repeat;width:250px;height:71px;display:block}
-#footer li a.f01:hover{background-color:#ff6d24;-moz-transition:opacity .5s;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}
+#footer li a.f01:hover{background-color:#fe5a08;-moz-transition:opacity .5s;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}
 #footer li a.f02{background:url(../images/footer02.png) no-repeat;width:250px;height:71px;display:block}
-#footer li a.f02:hover{background-color:#ff6d24;-moz-transition:opacity .5s;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}
+#footer li a.f02:hover{background-color:#fe5a08;-moz-transition:opacity .5s;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}
 #footer li a.f03{background:url(../images/footer03.png) no-repeat;width:250px;height:71px;display:block}
-#footer li a.f03:hover{background-color:#ff6d24;-moz-transition:opacity .5s;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}
+#footer li a.f03:hover{background-color:#fe5a08;-moz-transition:opacity .5s;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}
 #footer li a.f04{background:url(../images/footer04.png) no-repeat;width:250px;height:71px;display:block}
-#footer li a.f04:hover{background-color:#ff6d24;-moz-transition:opacity .5s;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}
+#footer li a.f04:hover{background-color:#fe5a08;-moz-transition:opacity .5s;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}
 #footer li a.f05{background:url(../images/footer05.png) no-repeat;width:250px;height:71px;display:block}
-#footer li a.f05:hover{background-color:#ff6d24;-moz-transition:opacity .5s;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}
+#footer li a.f05:hover{background-color:#fe5a08;-moz-transition:opacity .5s;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}
 		 
 
 /*------------Animation--------------*/	
@@ -338,3 +338,4 @@ to{transform:none}
 #footer ul{width:1000px;}
 .top_btn { display: none;}	
 }	 
+
