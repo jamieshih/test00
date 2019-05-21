@@ -460,13 +460,12 @@ to{transform:none}
 		 
 @media screen and (min-width: 768px) and (max-width: 1024px) { 	
 
-	body{ width:1100px; background:url(../images/index_bg.jpg) no-repeat;background-repeat:no-repeat;background-position:top center;background-attachment:scroll;background-color:#fff;margin:0 auto}
+	body{ width:1100px;margin:0 auto}
 
     .top_btn { display: none;}
 	
 	#main .bg{
 	width:1100px;
-	background: url(../images/kvm_bg.gif) no-repeat;
 	position: relative;
 	margin:0 auto;
 	}
